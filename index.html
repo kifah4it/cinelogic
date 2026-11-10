@@ -232,6 +232,9 @@
     .phase:not(:last-child)::after{inset-inline-start:-8px;left:auto}
     body.english .phase:not(:last-child)::after{content:'→'}
     .work-info{padding:16px 18px 18px}
+    .project-case-link{margin-block-start:7px;color:var(--gold);font-size:.8125rem;text-decoration:underline;text-underline-offset:3px}
+    .project-case-link.ar,.project-case-link.en{display:none}
+    body:not(.english) .project-case-link.ar,body.english .project-case-link.en{display:inline-block}
     .work-preview{aspect-ratio:16/10;height:auto}
     .work-preview .preview-label{inset-inline-start:14px;right:auto;color:var(--warm-white)}
     .work-preview:focus-visible{outline-offset:-4px}
@@ -386,6 +389,8 @@
       <button class="work-preview" type="button" data-src="assets/videos/1000613493.mp4" data-webm="assets/webm/1000613493.webm" data-title-ar="إعلان إطلاق البطاقات" data-title-en="Launch commercial" aria-haspopup="dialog" aria-label="شاهد مشروع فلاي شام | إطلاق بطاقات الصعود الجديدة" data-aria-en="Watch project Fly Cham | New Boarding Pass Launch" aria-describedby="poster-1000613493"><img loading="lazy" src="assets/posters/1000613493.jpg" id="poster-1000613493" alt="مسافر عند كاونتر تسجيل الرحلات في إعلان بطاقات فلاي شام" data-alt-en="A passenger at a check-in counter in the Fly Cham boarding pass campaign"><video class="hover-preview" muted playsinline loop preload="none" aria-hidden="true" data-preview="assets/previews/1000613493.webm" tabindex="-1"></video><span class="play-mark"><i>▶</i></span><span class="preview-label"><span class="ar">شاهد العمل</span><span class="en">WATCH FILM</span></span></button>
       <div class="work-info"><div class="work-meta"><span class="ar">طيران · حملة مترابطة</span><span class="en">AVIATION · CONNECTED CAMPAIGN</span></div><h3><span class="ar">فلاي شام | إطلاق بطاقات الصعود الجديدة</span><span class="en">Fly Cham | New Boarding Pass Launch</span></h3>
         <p><span class="ar">إعلان إطلاق بطاقات الصعود وفيلم يشرح فئاتها.</span><span class="en">A boarding pass launch ad and a film explaining the fare classes.</span></p>
+        <a class="project-case-link ar" href="projects/fly-cham-boarding-passes/index.html">شاهد الفيلم ودراسة الحالة</a>
+        <a class="project-case-link en" href="en/projects/fly-cham-boarding-passes/index.html">Watch the film and read the case study</a>
       </div>
       <template class="work-details"><p><span class="ar">حملة من فيديوهين: إعلان يقدّم بطاقات الصعود الجديدة، وموشن غرافيك يوضح تفاصيل ومزايا فئاتها.</span><span class="en">A two-film campaign introducing the new boarding passes, followed by a motion graphic explaining fare classes and benefits.</span></p><div class="work-value"><b><span class="ar">محور العمل</span><span class="en">CREATIVE FOCUS</span></b><span class="ar">يعرّف بفئات البطاقات الجديدة ويشرح تفاصيلها بصريًا.</span><span class="en">Introduces the new boarding pass tiers and explains them visually.</span></div></template>
       <template class="work-films"><button class="watch-btn" type="button" data-src="assets/videos/1000613493.mp4" data-webm="assets/webm/1000613493.webm" data-title-ar="إعلان إطلاق البطاقات" data-title-en="Launch commercial"><span class="ar">إعلان إطلاق البطاقات</span><span class="en">Launch commercial</span></button><button class="watch-btn" type="button" data-src="assets/videos/1000615792.mp4" data-webm="assets/webm/1000615792.webm" data-title-ar="شرح الفئات والتفاصيل" data-title-en="Boarding pass explainer"><span class="ar">شرح الفئات والتفاصيل</span><span class="en">Boarding pass explainer</span></button></template>

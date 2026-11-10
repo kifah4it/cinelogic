@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://cinelogic.net/</loc>
+  </url>
+  <url>
+    <loc>https://cinelogic.net/projects/fly-cham-boarding-passes/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://cinelogic.net/assets/posters/1000615792.jpg</video:thumbnail_loc>
+      <video:title>شرح فئات بطاقات الصعود لفلاي شام</video:title>
+      <video:description>أنتج Cinelogic فيلم موشن غرافيك يوضّح فئات بطاقات صعود فلاي شام ومزاياها، ضمن حملة إطلاق من فيلمين.</video:description>
+      <video:content_loc>https://cinelogic.net/assets/videos/1000615792.mp4</video:content_loc>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://cinelogic.net/en/projects/fly-cham-boarding-passes/</loc>
   </url>
 </urlset>
