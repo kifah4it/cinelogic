@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 710 100" fill="#F2F0EA" fill-rule="evenodd">
+  <path d="M0 0H116L97 20H22V80H97L116 100H0Z"/>
+  <path transform="translate(130 9)" d="M0 0H20V82H0Z"/>
+  <path transform="translate(164 9)" d="M0 82V0H19L55 49V0H74V82H56L19 33V82Z"/>
+  <path transform="translate(252 9)" d="M0 0H61V17H20V32H57V49H20V65H62V82H0Z"/>
+  <path transform="translate(328 9)" d="M0 0H20V64H59V82H0Z"/>
+  <path transform="translate(401 9)" d="M43-1C67-1 86 17 86 41S67 83 43 83 0 65 0 41 19-1 43-1ZM43 18C30 18 20 28 20 41S30 64 43 64 66 54 66 41 56 18 43 18Z"/>
+  <path transform="translate(501 9)" d="M79 15L64 27C59 21 51 18 43 18 30 18 20 28 20 41S30 64 43 64C53 64 61 59 64 51H46V35H83V42C83 67 66 83 43 83 19 83 0 65 0 41S19-1 43-1C57-1 70 5 79 15Z"/>
+  <path transform="translate(598 9)" d="M0 0H20V82H0Z"/>
+  <path transform="translate(632 9)" d="M78 14L63 26C58 20 51 18 43 18 30 18 20 28 20 41S30 64 43 64C51 64 58 61 63 55L78 67C70 77 57 83 43 83 19 83 0 65 0 41S19-1 43-1C57-1 70 5 78 14Z"/>
+  <path fill="#D98F3D" d="M85 80H97L116 100H73Z"/>
+</svg>
