@@ -4,7 +4,8 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" id="themeColor" content="#0B0B0C">
   <link rel="canonical" href="https://cinelogic.net/">
-  <link rel="icon" type="image/svg+xml" href="assets/cinelogic-icon.svg" sizes="any">
+  <link rel="alternate" hreflang="ar" href="https://cinelogic.net/"><link rel="alternate" hreflang="en" href="https://cinelogic.net/en/"><link rel="alternate" hreflang="x-default" href="https://cinelogic.net/">
+  <link rel="icon" type="image/svg+xml" href="/assets/cinelogic-icon.svg" sizes="any">
   <meta name="description" content="Cinelogic استوديو لإنتاج الفيديو والإعلانات بالذكاء الاصطناعي. ننتج إعلانات سينمائية، وفيديوهات منتجات، وأفلامًا تعريفية للشركات، من الفكرة إلى التسليم.">
   <meta property="og:title" content="إنتاج فيديو وإعلانات بالذكاء الاصطناعي | Cinelogic">
   <meta property="og:description" content="Cinelogic استوديو لإنتاج الفيديو والإعلانات بالذكاء الاصطناعي. ننتج إعلانات سينمائية، وفيديوهات منتجات، وأفلامًا تعريفية للشركات، من الفكرة إلى التسليم.">
@@ -19,33 +20,112 @@
   <meta name="twitter:image" content="https://cinelogic.net/assets/og-cinelogic.png">
   <meta name="twitter:image:alt" content="Cinelogic — نحن لا نصنع إعلانات، نحن نصنع تجربة">
   <title>إنتاج فيديو وإعلانات بالذكاء الاصطناعي | Cinelogic</title>
-  <script type="application/ld+json">
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
+      "@type": "WebSite",
+      "@id": "https://cinelogic.net/#website",
+      "name": "Cinelogic",
+      "url": "https://cinelogic.net/",
+      "publisher": {
+        "@id": "https://cinelogic.net/#organization"
+      },
+      "inLanguage": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://cinelogic.net/#organization",
+      "name": "Cinelogic",
+      "url": "https://cinelogic.net/",
+      "logo": "https://cinelogic.net/assets/cinelogic-icon.svg",
+      "sameAs": [
+        "https://www.instagram.com/Cinelogicc/",
+        "https://www.facebook.com/Cinelogicc",
+        "https://www.youtube.com/@Cinelogicc"
+      ],
+      "description": "Cinelogic استوديو لإنتاج الفيديو والإعلانات بالذكاء الاصطناعي. نطوّر الفكرة والسيناريو والإخراج والمونتاج لإعلانات سينمائية، وفيديوهات منتجات، وأفلام تعريفية وموشن غرافيك.",
+      "email": "info@cinelogic.net",
+      "telephone": "+963994412211",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+963994412211",
+        "email": "info@cinelogic.net",
+        "contactType": "customer service"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://cinelogic.net/#webpage",
+      "url": "https://cinelogic.net/",
+      "name": "إنتاج فيديو وإعلانات بالذكاء الاصطناعي | Cinelogic",
+      "inLanguage": "ar",
+      "isPartOf": {
+        "@id": "https://cinelogic.net/#website"
+      },
+      "about": {
+        "@id": "https://cinelogic.net/#organization"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://cinelogic.net/#faq",
+      "isPartOf": {
+        "@id": "https://cinelogic.net/#webpage"
+      },
+      "inLanguage": "ar",
+      "mainEntity": [
         {
-          "@type": "WebSite",
-          "@id": "https://cinelogic.net/#website",
-          "name": "Cinelogic",
-          "url": "https://cinelogic.net/",
-          "publisher": { "@id": "https://cinelogic.net/#organization" }
+          "@type": "Question",
+          "name": "ما هي Cinelogic؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cinelogic استوديو لإنتاج الفيديو والإعلانات بالذكاء الاصطناعي. نطوّر الفكرة والسيناريو والإخراج والمونتاج لإعلانات سينمائية، وفيديوهات منتجات، وأفلام تعريفية وموشن غرافيك."
+          }
         },
         {
-          "@type": "Organization",
-          "@id": "https://cinelogic.net/#organization",
-          "name": "Cinelogic",
-          "url": "https://cinelogic.net/",
-          "logo": "https://cinelogic.net/assets/cinelogic-icon.svg",
-          "sameAs": [
-            "https://www.instagram.com/Cinelogicc/",
-            "https://www.facebook.com/Cinelogicc",
-            "https://www.youtube.com/@Cinelogicc"
-          ]
+          "@type": "Question",
+          "name": "كيف يبدأ إنتاج إعلان؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "أرسل نوع المشروع والجمهور والرسالة والمقاسات المطلوبة وموعد التسليم عبر موجز المشروع أو واتساب. نراجع الموجز ونحدّد المعالجة الإبداعية ونطاق الإنتاج قبل البدء."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ما الذي يحدّد تكلفة الفيديو ومدة إنتاجه؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "تتحدد التكلفة والمدة بحسب عدد الأفلام والمشاهد، وطبيعة الحركة، والتعليق الصوتي، والمقاسات والمراجعات المطلوبة. تواصل معنا بموجز المشروع للحصول على تقدير يناسب نطاقه."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "هل يمكن مشاهدة أمثلة على أعمالكم؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "تجد في معرض الأعمال ملفًا خاصًا بكل عميل، يجمع مشاريعه وأفلامه. اختر العلامة لاستكشاف العمل ومشاهدة الأفلام."
+          }
         }
       ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://cinelogic.net/#video-production",
+      "name": "إنتاج فيديو وإعلانات بالذكاء الاصطناعي",
+      "serviceType": "AI-assisted video production",
+      "description": "Cinelogic استوديو لإنتاج الفيديو والإعلانات بالذكاء الاصطناعي. نطوّر الفكرة والسيناريو والإخراج والمونتاج لإعلانات سينمائية، وفيديوهات منتجات، وأفلام تعريفية وموشن غرافيك.",
+      "provider": {
+        "@id": "https://cinelogic.net/#organization"
+      },
+      "url": "https://cinelogic.net/#services"
     }
-  </script>
-  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  ]
+}</script>
+  <link rel="stylesheet" href="/assets/fonts/fonts.css">
   <style>
     :root{
       --studio-black:#0B0B0C;--charcoal:#1B1B1D;--warm-white:#F2F0EA;
@@ -270,6 +350,8 @@
     .whatsapp-modal:hover{border-color:var(--gold)}
     footer{padding-right:92px}
     .video-modal video{max-height:60dvh}
+    .video-modal iframe{display:block;width:100%;height:clamp(200px,54vw,60dvh);border:0;background:#000}
+    .video-modal video[hidden],.video-modal iframe[hidden]{display:none}
     .modal-details{padding:14px 18px;font-size:.875rem}
     .modal-details p{margin:0 0 8px;color:var(--muted)}
     .modal-details .work-value{border-color:var(--line);color:var(--text);font-size:inherit}
@@ -289,24 +371,39 @@
       .hero-center{padding:96px 16px 70px}
       .hero-word{width:min(100%,960px)}
     }
+    .work-info>.case-video-link{font-size:11px;color:var(--gold);display:inline-block;margin-bottom:8px}
+    .faq-list details{border-bottom:1px solid var(--line);padding:18px 0}.faq-list summary{cursor:pointer;font-size:16px;font-weight:600;color:var(--text)}.faq-list p{max-width:850px;font-size:14px;color:var(--muted);line-height:1.9}.faq-list .btn-outline{margin-block:8px}
+    .watch-btn:disabled{opacity:.45;cursor:default}.video-pending{color:var(--muted);font-size:11px}
+    #youtubePlayer[hidden]{display:none}
+    /* Unified FAQ cards */
+    .faq-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}
+    .faq-list details{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-frame);padding:22px;transition:border-color .2s}
+    .faq-list details[open]{border-color:var(--gold)}
+    .faq-list summary{font-family:var(--ar);font-size:16px;line-height:1.8;font-weight:700;list-style:none;display:flex;justify-content:space-between;align-items:start;gap:16px}
+    .faq-list summary::-webkit-details-marker{display:none}
+    .faq-list summary:after{content:'+';color:var(--gold);font-size:22px;line-height:1.3;flex:none}
+    .faq-list details[open] summary:after{content:'−'}
+    .faq-list p{font-size:14px;line-height:1.9;margin:14px 0 0;color:var(--muted)}
+    body:not(.english) .en{display:none!important}body.english .ar{display:none!important}
+    @media(max-width:700px){.faq-list{grid-template-columns:1fr}.faq-list details{padding:20px}}
   </style>
-</head>
+<link rel="preload" as="image" href="/assets/posters/cinelogicc-showreel-current.jpg" fetchpriority="high"></head>
 <body>
   <header><div class="wrap nav">
     <a class="brand" href="#home" aria-label="Cinelogic">
-      <img class="brand-wordmark" src="assets/cinelogic-wordmark.svg" alt="" width="710" height="100">
-      <img class="brand-wordmark light-bg" src="assets/cinelogic-wordmark-light-bg.svg" alt="" width="710" height="100">
+      <img class="brand-wordmark" src="/assets/cinelogic-wordmark.svg" alt="" width="710" height="100">
+      <img class="brand-wordmark light-bg" src="/assets/cinelogic-wordmark-light-bg.svg" alt="" width="710" height="100">
     </a>
     <button class="menu-btn" id="menuBtn" type="button" aria-controls="navLinks" aria-expanded="false"><span class="ar">القائمة</span><span class="en">Menu</span></button>
-    <nav class="nav-links" id="navLinks"><a href="#services"><span class="ar">خدماتنا</span><span class="en">Services</span></a><a href="#work"><span class="ar">أعمالنا</span><span class="en">Selected Work</span></a><a href="#process"><span class="ar">طريقة العمل</span><span class="en">Process</span></a><a href="#founder"><span class="ar">المؤسس</span><span class="en">Founder</span></a><a href="#plans"><span class="ar">نماذج التعاون</span><span class="en">Engagement</span></a><a class="nav-cta" href="#contact"><span class="ar">ابدأ مشروعك ←</span><span class="en">Start a Project →</span></a><button class="lang-btn" id="langBtn" aria-label="Switch language">EN</button><button class="theme-btn" id="themeBtn" type="button" aria-label="التبديل إلى المظهر الكريمي" title="التبديل إلى المظهر الكريمي" aria-pressed="false"><svg class="theme-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg><svg class="theme-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 15.4A8.5 8.5 0 0 1 8.6 3.6 8.5 8.5 0 1 0 20.4 15.4Z"/></svg></button></nav>
+    <nav class="nav-links" id="navLinks"><a href="#services"><span class="ar">خدماتنا</span><span class="en">Services</span></a><a href="#work"><span class="ar">أعمالنا</span><span class="en">Selected Work</span></a><a href="#process"><span class="ar">طريقة العمل</span><span class="en">Process</span></a><a href="#founder"><span class="ar">المؤسس</span><span class="en">Founder</span></a><a href="#plans"><span class="ar">نماذج التعاون</span><span class="en">Engagement</span></a><a class="nav-cta" href="#contact"><span class="ar">ابدأ مشروعك ←</span><span class="en">Start a Project →</span></a><a class="lang-btn" id="langBtn" href="/en/" lang="en" hreflang="en" aria-label="Switch to English">EN</a><button class="theme-btn" id="themeBtn" type="button" aria-label="التبديل إلى المظهر الكريمي" title="التبديل إلى المظهر الكريمي" aria-pressed="false"><svg class="theme-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg><svg class="theme-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 15.4A8.5 8.5 0 0 1 8.6 3.6 8.5 8.5 0 1 0 20.4 15.4Z"/></svg></button></nav>
   </div></header>
   <main>
     <section class="hero" id="home" tabindex="-1" aria-labelledby="heroTitle">
-      <video id="showreel" class="hero-video" src="assets/videos/cinelogicc-showreel-joudx.mp4" muted loop playsinline preload="metadata" poster="assets/posters/cinelogicc-showreel-current.jpg" aria-hidden="true"></video>
+      <video id="showreel" class="hero-video" src="/assets/videos/cinelogicc-showreel-joudx.mp4" muted loop playsinline preload="metadata" poster="/assets/posters/cinelogicc-showreel-current.jpg" aria-hidden="true"></video>
       <div class="hero-shade" aria-hidden="true"></div>
       <div class="hero-center">
         <div class="hero-word">
-          <img id="heroWordmark" src="assets/cinelogic-wordmark.svg" alt="Cinelogic" width="710" height="100">
+          <img id="heroWordmark" src="/assets/cinelogic-wordmark.svg" alt="Cinelogic" width="710" height="100">
           <canvas id="heroWordmarkVideo" aria-hidden="true"></canvas>
         </div>
         <div class="hero-intro">
@@ -322,119 +419,40 @@
       <a class="hero-scroll" href="#services"><span class="ar">اكتشف الاستوديو</span><span class="en">DISCOVER THE STUDIO</span><i aria-hidden="true">↓</i></a>
     </section>
     <div class="ticker"><div class="wrap ticker-row"><span class="ar">فكرة واضحة</span><span class="en">CLEAR IDEA</span><span>✦</span><span class="ar">صورة متماسكة</span><span class="en">VISUAL CONTINUITY</span><span>✦</span><span class="ar">حركة مقنعة</span><span class="en">BELIEVABLE MOTION</span><span>✦</span><span class="ar">تجربة تترك أثرًا</span><span class="en">A STORY THAT STAYS</span></div></div>
-    <section class="brand-strip" aria-label="علامات وقطاعات مختارة" data-aria-en="Selected brands and sectors"><div class="brand-strip-label"><span class="ar">علامات وقطاعات ظهرت في أعمالنا</span><span class="en">BRANDS AND SECTORS FEATURED IN OUR WORK</span></div><div class="brand-marquee wrap"><span>FLY CHAM</span><span>BeeORDER</span><span>NISSO UMZUG</span><span>AL FARAH GOURMET</span><span>MOTHERLAND SCHOOL</span><span>RJBI</span><span>TAWAZON</span></div></section>
+    <section class="brand-strip" aria-label="علامات وقطاعات مختارة" data-aria-en="Selected brands and sectors"><div class="brand-strip-label"><span class="ar">علامات وقطاعات ظهرت في أعمالنا</span><span class="en">BRANDS AND SECTORS FEATURED IN OUR WORK</span></div><div class="brand-marquee wrap"><span>FLY CHAM</span><span>BeeORDER</span><span>NISSO UMZUG</span><span>AL FARAH GOURMET</span><span>MOTHERLAND SCHOOL</span><span>RJBI</span><span>TAWAZON</span><span>COMPANY I</span><span>ROYAL CLEAN</span><span>AN-NUR</span></div></section>
     <section class="section" id="services"><div class="wrap">
       <div class="section-head"><div><div class="eyebrow"><span class="ar">ماذا نصنع</span><span class="en">WHAT WE DO</span></div><h2><span class="ar">الفكرة هي البداية.<br>والتجربة هي النتيجة.</span><span class="en">The idea is the start.<br>The experience is the result.</span></h2></div><p><span class="ar">ننتج إعلانات سينمائية وفيديوهات منتجات وأفلامًا تعريفية للشركات. نطوّر الفكرة والسيناريو ونختار أسلوب الإخراج المناسب لكل مشروع.</span><span class="en">We produce cinematic ads, product videos and corporate films. We develop the concept and script, then shape the direction around each project.</span></p></div>
       <div class="service-grid">
-        <a class="service" href="#work" data-work-service="cinematic"><span class="num"><span class="ar">01 / إعلان</span><span class="en">01 / COMMERCIAL</span></span><span class="service-icon" aria-hidden="true">✳</span><h3><span class="ar">إعلانات سينمائية</span><span class="en">Cinematic Advertising</span></h3><p><span class="ar">أفكار ومعالجات إعلانية بفكرة مركزية، افتتاحية قوية ورسالة واضحة.</span><span class="en">Commercial concepts with a focused idea, a strong opening and a clear message.</span></p><span class="service-action"><span class="ar">شاهد أمثلة</span><span class="en">See examples</span><span aria-hidden="true">↓</span></span></a>
-        <a class="service" href="#work" data-work-service="product"><span class="num"><span class="ar">02 / منتجات</span><span class="en">02 / PRODUCT</span></span><span class="service-icon" aria-hidden="true">◉</span><h3><span class="ar">إعلانات المنتجات</span><span class="en">Product Films</span></h3><p><span class="ar">إبراز هوية المنتج وتفاصيله واستخدامه داخل قصة بصرية متماسكة.</span><span class="en">Showcasing product identity, detail and use through a coherent visual story.</span></p><span class="service-action"><span class="ar">شاهد أمثلة</span><span class="en">See examples</span><span aria-hidden="true">↓</span></span></a>
-        <a class="service" href="#work" data-work-service="story"><span class="num"><span class="ar">03 / قصة علامة</span><span class="en">03 / BRAND STORY</span></span><span class="service-icon" aria-hidden="true">⌁</span><h3><span class="ar">سرد قصص العلامات</span><span class="en">Brand Storytelling</span></h3><p><span class="ar">ترجمة شخصية العلامة وقيمها إلى مشاهد ومحتوى يبني حضورًا مميزًا.</span><span class="en">Translating a brand’s character and values into distinctive visual content.</span></p><span class="service-action"><span class="ar">شاهد أمثلة</span><span class="en">See examples</span><span aria-hidden="true">↓</span></span></a>
-        <a class="service" href="#work" data-work-service="short"><span class="num"><span class="ar">04 / أفلام</span><span class="en">04 / FILM</span></span><span class="service-icon" aria-hidden="true">◌</span><h3><span class="ar">أفلام قصيرة ومحتوى اجتماعي</span><span class="en">Short Films & Social Content</span></h3><p><span class="ar">قصص قصيرة مصممة للإيقاع العمودي والمنصات الرقمية، مع ضبط التوقيت والحركة.</span><span class="en">Short stories built for vertical formats and digital platforms, with careful timing and motion.</span></p><span class="service-action"><span class="ar">شاهد أمثلة</span><span class="en">See examples</span><span aria-hidden="true">↓</span></span></a>
-        <a class="service" href="#work" data-work-service="corporate"><span class="num"><span class="ar">05 / مؤسسي</span><span class="en">05 / CORPORATE</span></span><span class="service-icon" aria-hidden="true">▱</span><h3><span class="ar">أفلام مؤسسية وتعليمية</span><span class="en">Corporate & Educational Films</span></h3><p><span class="ar">تبسيط الخدمات والعمليات والقيم في أفلام واضحة وإنسانية.</span><span class="en">Making services, operations and values clear through human-centered films.</span></p><span class="service-action"><span class="ar">شاهد أمثلة</span><span class="en">See examples</span><span aria-hidden="true">↓</span></span></a>
-        <a class="service" href="#work" data-work-service="motion"><span class="num"><span class="ar">06 / موشن</span><span class="en">06 / MOTION</span></span><span class="service-icon" aria-hidden="true">↗</span><h3><span class="ar">موشن غرافيك وحلول بصرية</span><span class="en">Motion Design & Visuals</span></h3><p><span class="ar">عناصر متحركة ومشاهد توضيحية تعزّز الفكرة وتخدم هوية المشروع.</span><span class="en">Motion elements and visual explainers that support the idea and project identity.</span></p><span class="service-action"><span class="ar">شاهد أمثلة</span><span class="en">See examples</span><span aria-hidden="true">↓</span></span></a>
+        <a class="service" href="/services/cinematic-advertising/" data-service-ar="/services/cinematic-advertising/" data-service-en="/en/services/cinematic-advertising/"><span class="num"><span class="ar">01 / إعلان</span><span class="en">01 / COMMERCIAL</span></span><span class="service-icon" aria-hidden="true">✳</span><h3><span class="ar">إعلانات سينمائية</span><span class="en">Cinematic Advertising</span></h3><p><span class="ar">أفكار ومعالجات إعلانية بفكرة مركزية، افتتاحية قوية ورسالة واضحة.</span><span class="en">Commercial concepts with a focused idea, a strong opening and a clear message.</span></p><span class="service-action"><span class="ar">اكتشف الخدمة</span><span class="en">Explore the service</span><span aria-hidden="true">↓</span></span></a>
+        <a class="service" href="/services/product-films/" data-service-ar="/services/product-films/" data-service-en="/en/services/product-films/"><span class="num"><span class="ar">02 / منتجات</span><span class="en">02 / PRODUCT</span></span><span class="service-icon" aria-hidden="true">◉</span><h3><span class="ar">إعلانات المنتجات</span><span class="en">Product Films</span></h3><p><span class="ar">إبراز هوية المنتج وتفاصيله واستخدامه داخل قصة بصرية متماسكة.</span><span class="en">Showcasing product identity, detail and use through a coherent visual story.</span></p><span class="service-action"><span class="ar">اكتشف الخدمة</span><span class="en">Explore the service</span><span aria-hidden="true">↓</span></span></a>
+        <a class="service" href="/services/brand-storytelling/" data-service-ar="/services/brand-storytelling/" data-service-en="/en/services/brand-storytelling/"><span class="num"><span class="ar">03 / قصة علامة</span><span class="en">03 / BRAND STORY</span></span><span class="service-icon" aria-hidden="true">⌁</span><h3><span class="ar">سرد قصص العلامات</span><span class="en">Brand Storytelling</span></h3><p><span class="ar">ترجمة شخصية العلامة وقيمها إلى مشاهد ومحتوى يبني حضورًا مميزًا.</span><span class="en">Translating a brand’s character and values into distinctive visual content.</span></p><span class="service-action"><span class="ar">اكتشف الخدمة</span><span class="en">Explore the service</span><span aria-hidden="true">↓</span></span></a>
+        <a class="service" href="/services/short-films-social/" data-service-ar="/services/short-films-social/" data-service-en="/en/services/short-films-social/"><span class="num"><span class="ar">04 / أفلام</span><span class="en">04 / FILM</span></span><span class="service-icon" aria-hidden="true">◌</span><h3><span class="ar">أفلام قصيرة ومحتوى اجتماعي</span><span class="en">Short Films & Social Content</span></h3><p><span class="ar">قصص قصيرة مصممة للإيقاع العمودي والمنصات الرقمية، مع ضبط التوقيت والحركة.</span><span class="en">Short stories built for vertical formats and digital platforms, with careful timing and motion.</span></p><span class="service-action"><span class="ar">اكتشف الخدمة</span><span class="en">Explore the service</span><span aria-hidden="true">↓</span></span></a>
+        <a class="service" href="/services/corporate-educational-films/" data-service-ar="/services/corporate-educational-films/" data-service-en="/en/services/corporate-educational-films/"><span class="num"><span class="ar">05 / مؤسسي</span><span class="en">05 / CORPORATE</span></span><span class="service-icon" aria-hidden="true">▱</span><h3><span class="ar">أفلام مؤسسية وتعليمية</span><span class="en">Corporate & Educational Films</span></h3><p><span class="ar">تبسيط الخدمات والعمليات والقيم في أفلام واضحة وإنسانية.</span><span class="en">Making services, operations and values clear through human-centered films.</span></p><span class="service-action"><span class="ar">اكتشف الخدمة</span><span class="en">Explore the service</span><span aria-hidden="true">↓</span></span></a>
+        <a class="service" href="/services/motion-design/" data-service-ar="/services/motion-design/" data-service-en="/en/services/motion-design/"><span class="num"><span class="ar">06 / موشن</span><span class="en">06 / MOTION</span></span><span class="service-icon" aria-hidden="true">↗</span><h3><span class="ar">موشن غرافيك وحلول بصرية</span><span class="en">Motion Design & Visuals</span></h3><p><span class="ar">عناصر متحركة ومشاهد توضيحية تعزّز الفكرة وتخدم هوية المشروع.</span><span class="en">Motion elements and visual explainers that support the idea and project identity.</span></p><span class="service-action"><span class="ar">اكتشف الخدمة</span><span class="en">Explore the service</span><span aria-hidden="true">↓</span></span></a>
       </div>
     </div></section>
     <section class="section work-section" id="work" tabindex="-1" aria-labelledby="workHeading"><div class="wrap">
       <div class="section-head"><div><div class="eyebrow"><span class="ar">مختارات من أعمالنا</span><span class="en">SELECTED PROJECTS</span></div><h2 id="workHeading"><span class="ar">أفكار صُممت لتُرى وتُحكى.</span><span class="en">Ideas made to be seen and remembered.</span></h2></div><p><span class="ar">هذه نماذج مختارة من أرشيف أوسع، ولا تشمل جميع أعمالنا. اخترنا مشاريع متنوعة لتعطيك لمحة عن أسلوب Cinelogic في الإعلان والسرد والطيران.</span><span class="en">These selected examples offer a glimpse of Cinelogic’s wider portfolio and approach to advertising, storytelling and aviation.</span></p></div>
-      <div class="filter-row" role="group" aria-label="تصفية الأعمال" data-aria-en="Filter projects"><button class="filter active" data-filter="all"><span class="ar">الكل</span><span class="en">All</span></button><button class="filter" data-filter="campaign"><span class="ar">إعلانات المنتجات</span><span class="en">Product Ads</span></button><button class="filter" data-filter="aviation"><span class="ar">الطيران</span><span class="en">Aviation</span></button><button class="filter" data-filter="corporate"><span class="ar">مؤسسي وتعليمي</span><span class="en">Corporate & Education</span></button><button class="filter" data-filter="digital"><span class="ar">رقمي وسياحي</span><span class="en">Digital & Tourism</span></button><button class="filter" data-filter="beauty"><span class="ar">الجمال</span><span class="en">Beauty</span></button><button class="filter" data-filter="design"><span class="ar">ديكور وإضاءة</span><span class="en">Interiors</span></button><button class="filter" data-filter="health"><span class="ar">صحة ورعاية</span><span class="en">Healthcare</span></button><button class="filter" data-filter="brand"><span class="ar">قصص العلامات</span><span class="en">Brand Stories</span></button></div>
-      <div class="portfolio-count" id="workTotal"><span class="ar">معرض الأعمال · 14 مشروعًا · 17 فيديو</span><span class="en">PORTFOLIO · 14 PROJECTS · 17 FILMS</span></div>
+      <div class="filter-row" role="group" aria-label="تصفية الأعمال" data-aria-en="Filter projects"><button class="filter active" data-filter="all"><span class="ar">الكل</span><span class="en">All</span></button><button class="filter" data-filter="aviation"><span class="ar">الطيران</span><span class="en">Aviation</span></button><button class="filter" data-filter="corporate"><span class="ar">مؤسسات وخدمات</span><span class="en">Organizations & Services</span></button><button class="filter" data-filter="digital"><span class="ar">رقمي وسياحي</span><span class="en">Digital & Tourism</span></button><button class="filter" data-filter="beauty"><span class="ar">الجمال والعناية</span><span class="en">Beauty &amp; Care</span></button><button class="filter" data-filter="design"><span class="ar">ديكور وإضاءة</span><span class="en">Interiors</span></button><button class="filter" data-filter="health"><span class="ar">صحة ورعاية</span><span class="en">Healthcare</span></button><button class="filter" data-filter="brand"><span class="ar">قصص العلامات</span><span class="en">Brand Stories</span></button></div>
+      <div class="portfolio-count" id="workTotal"><span class="ar">معرض الأعمال · 13 عميلًا · 21 فيلمًا</span><span class="en">PORTFOLIO · 13 CLIENTS · 21 FILMS</span></div>
       <div id="workServiceContext" class="portfolio-count" role="status" hidden><span class="ar"></span><span class="en"></span></div>
       <div class="work-grid" id="workGrid">
-<article class="work-card" data-category="campaign" data-services="cinematic">
-      <button class="work-preview" type="button" data-src="assets/videos/1000679451.mp4" data-webm="assets/webm/1000679451.webm" data-title-ar="من أول كرتونة لآخر قطعة… الانتقال إلو قصة" data-title-en="From First Box to Last Item" aria-haspopup="dialog" aria-label="شاهد مشروع NISSO UMZUG | حملتان للانتقال وإخلاء المساحات" data-aria-en="Watch project NISSO UMZUG | Moving & Home Clearance Campaign" aria-describedby="poster-1000679451"><img loading="lazy" src="assets/posters/1000679451.jpg" id="poster-1000679451" alt="عاملان من NISSO UMZUG يحملان قطعة أثاث على الدرج" data-alt-en="Two NISSO UMZUG movers carry furniture up a stairwell"><video class="hover-preview" muted playsinline loop preload="none" aria-hidden="true" data-preview="assets/previews/1000679451.webm" tabindex="-1"></video><span class="play-mark"><i>▶</i></span><span class="preview-label"><span class="ar">شاهد العمل</span><span class="en">WATCH FILM</span></span></button>
-      <div class="work-info"><div class="work-meta"><span class="ar">انتقال وإخلاء منازل</span><span class="en">MOVING · HOME & GARAGE CLEARANCE</span></div><h3><span class="ar">NISSO UMZUG | حملتان للانتقال وإخلاء المساحات</span><span class="en">NISSO UMZUG | Moving & Home Clearance Campaign</span></h3>
-        <p><span class="ar">حملة من فيلمين لخدمات الانتقال وإخلاء المساحات.</span><span class="en">Two films about moving and home clearance.</span></p>
-      </div>
-      <template class="work-details"><p><span class="ar">فيلمان مترابطان: الأول يرافق الانتقال من أول كرتونة حتى تسليم آخر قطعة؛ والثاني يحوّل ازدحام البيت والكراج إلى مساحة أوسع من جديد. طوّرت Cinelogic الفكرة والسيناريو والمشاهد والهوية البصرية، مع تعليق صوتي ألماني.</span><span class="en">Two connected ads: one follows a move from the first box to the final item; the other clears a crowded home and garage. Cinelogic developed the concepts, scripts, scenes and visual identity, with German voice-over.</span></p><div class="work-value"><b><span class="ar">محور العمل</span><span class="en">CREATIVE FOCUS</span></b><span class="ar">يجمع خدمتي الانتقال وإخلاء المساحات ضمن لغة إعلانية مترابطة.</span><span class="en">Connects moving and clearance services through a related campaign.</span></div></template>
-      <template class="work-films"><button class="watch-btn" type="button" data-src="assets/videos/1000679451.mp4" data-webm="assets/webm/1000679451.webm" data-title-ar="من أول كرتونة لآخر قطعة… الانتقال إلو قصة" data-title-en="From First Box to Last Item"><span class="ar">من أول كرتونة لآخر قطعة</span><span class="en">From First Box to Last Item</span></button><button class="watch-btn" type="button" data-src="assets/videos/1000679481.mp4" data-webm="assets/webm/1000679481.webm" data-title-ar="بيت وكراج مليانين؟ منرجّعلكن المساحة" data-title-en="A Full Home and Garage? We Clear the Space"><span class="ar">إخلاء البيت والكراج</span><span class="en">Home & Garage Clearance</span></button></template>
-    </article>
-<article class="work-card" data-category="brand" data-services="story">
-      <button class="work-preview" type="button" data-src="assets/videos/1000520055.mp4" data-webm="assets/webm/1000520055.webm" data-title-ar="قصة الفرح غورميه" data-title-en="Al Farah Gourmet story" aria-haspopup="dialog" aria-label="شاهد مشروع الفرح غورميه | من التأسيس إلى التوسع" data-aria-en="Watch project Al Farah Gourmet | From Foundation to Growth" aria-describedby="poster-1000520055"><img loading="lazy" src="assets/posters/1000520055.jpg" id="poster-1000520055" alt="طبق لحم مشوي مع خضار في فيلم الفرح غورميه" data-alt-en="Grilled meat with vegetables in the Al Farah Gourmet film"><video class="hover-preview" muted playsinline loop preload="none" aria-hidden="true" data-preview="assets/previews/1000520055.webm" tabindex="-1"></video><span class="play-mark"><i>▶</i></span><span class="preview-label"><span class="ar">شاهد العمل</span><span class="en">WATCH FILM</span></span></button>
-      <div class="work-info"><div class="work-meta"><span class="ar">قصة علامة · ضيافة</span><span class="en">BRAND STORY · HOSPITALITY</span></div><h3><span class="ar">الفرح غورميه | من التأسيس إلى التوسع</span><span class="en">Al Farah Gourmet | From Foundation to Growth</span></h3>
-        <p><span class="ar">رحلة الفرح غورميه من التأسيس إلى التوسع في أبوظبي.</span><span class="en">Al Farah Gourmet’s journey from founding to growth in Abu Dhabi.</span></p>
-      </div>
-      <template class="work-details"><p><span class="ar">فيلم يروي رحلة الفرح غورميه في أبوظبي منذ التأسيس، مرورًا بمراحل النمو والتوسع، وصولًا إلى مكانته الحالية.</span><span class="en">A brand story following Al Farah Gourmet in Abu Dhabi from its beginnings through growth and expansion to its current presence.</span></p><div class="work-value"><b><span class="ar">محور العمل</span><span class="en">CREATIVE FOCUS</span></b><span class="ar">يروي رحلة العلامة من التأسيس إلى النمو ويعرّف الجمهور بمسيرتها.</span><span class="en">Introduces the brand through its journey from founding to growth.</span></div></template>
-    </article><article class="work-card" data-category="corporate" data-services="corporate motion">
-      <button class="work-preview" type="button" data-src="assets/videos/1000533815.mp4" data-title-ar="شاهد الفيديو" data-title-en="Play film" aria-haspopup="dialog" aria-label="شاهد مشروع RJBI | خدمات ألمانيا" data-aria-en="Watch project RJBI | Services in Germany" aria-describedby="poster-1000533815"><img loading="lazy" src="assets/posters/1000533815.jpg" id="poster-1000533815" alt="مقدّم افتراضي أمام لوحتين تعرضان خدمات RJBI" data-alt-en="A virtual presenter in front of two RJBI service panels"><video class="hover-preview" muted playsinline loop preload="none" aria-hidden="true" data-preview="assets/previews/1000533815.webm" tabindex="-1"></video><span class="play-mark"><i>▶</i></span><span class="preview-label"><span class="ar">شاهد العمل</span><span class="en">WATCH FILM</span></span></button>
-      <div class="work-info"><div class="work-meta"><span class="ar">شركات · شرح خدمات</span><span class="en">CORPORATE · SERVICE EXPLAINER</span></div><h3><span class="ar">RJBI | خدمات ألمانيا</span><span class="en">RJBI | Services in Germany</span></h3>
-        <p><span class="ar">فيلم تعريفي بخدمات RJBI في ألمانيا.</span><span class="en">An introduction to RJBI’s services in Germany.</span></p>
-      </div>
-      <template class="work-details"><p><span class="ar">فيديو تعريفي يقدّم خدمات RJBI في ألمانيا بأسلوب بصري حديث ومقدّم افتراضي.</span><span class="en">A modern service introduction for RJBI in Germany, presented through a virtual spokesperson.</span></p><div class="work-value"><b><span class="ar">محور العمل</span><span class="en">CREATIVE FOCUS</span></b><span class="ar">يبسّط التعريف بخدمات الشركة لجمهورها في ألمانيا.</span><span class="en">Makes the company’s services clearer to its audience in Germany.</span></div></template>
-    </article><article class="work-card" data-category="campaign" data-services="cinematic">
-      <button class="work-preview" type="button" data-src="assets/videos/1000556076.mp4" data-webm="assets/webm/1000556076.webm" data-title-ar="شاهد الإعلان" data-title-en="Play commercial" aria-haspopup="dialog" aria-label="شاهد مشروع BeeORDER | توصيل الطلبات" data-aria-en="Watch project BeeORDER | On-Demand Delivery" aria-describedby="poster-1000556076"><img loading="lazy" src="assets/posters/1000556076.jpg" id="poster-1000556076" alt="حقيبة توصيل BeeORDER البرتقالية في أحد شوارع المدينة" data-alt-en="An orange BeeORDER delivery bag on a city street"><video class="hover-preview" muted playsinline loop preload="none" aria-hidden="true" data-preview="assets/previews/1000556076.webm" tabindex="-1"></video><span class="play-mark"><i>▶</i></span><span class="preview-label"><span class="ar">شاهد العمل</span><span class="en">WATCH FILM</span></span></button>
-      <div class="work-info"><div class="work-meta"><span class="ar">حملة علامة · توصيل</span><span class="en">BRAND CAMPAIGN · DELIVERY</span></div><h3><span class="ar">BeeORDER | توصيل الطلبات</span><span class="en">BeeORDER | On-Demand Delivery</span></h3>
-        <p><span class="ar">إعلان يتتبع رحلة توصيل طلب عبر المدينة.</span><span class="en">A commercial following a delivery through the city.</span></p>
-      </div>
-      <template class="work-details"><p><span class="ar">إعلان سينمائي يصوّر رحلة التوصيل وأجواء المدينة، مع إبراز خدمة BeeORDER.</span><span class="en">A cinematic delivery campaign following a courier through the city and highlighting BeeORDER.</span></p><div class="work-value"><b><span class="ar">محور العمل</span><span class="en">CREATIVE FOCUS</span></b><span class="ar">يقدّم تجربة الطلب والتوصيل ضمن قصة حضرية سهلة التذكّر.</span><span class="en">Frames ordering and delivery as a memorable city story.</span></div></template>
-    </article><article class="work-card" data-category="campaign" data-services="cinematic product short">
-      <button class="work-preview" type="button" data-src="assets/videos/1000553199.mp4" data-title-ar="إعلان مجموعة المنتجات" data-title-en="Product film" aria-haspopup="dialog" aria-label="شاهد مشروع شركة I | إعلانات التونر والميسلار" data-aria-en="Watch project Company I | Toner & Micellar Ads" aria-describedby="poster-1000553199"><img loading="lazy" src="assets/posters/1000553199.jpg" id="poster-1000553199" alt="عبوات التونر والميسلار من شركة I بجوار شرائح خيار" data-alt-en="Company I toner and micellar water bottles beside sliced cucumber"><video class="hover-preview" muted playsinline loop preload="none" aria-hidden="true" data-preview="assets/previews/1000553199.webm" tabindex="-1"></video><span class="play-mark"><i>▶</i></span><span class="preview-label"><span class="ar">شاهد العمل</span><span class="en">WATCH FILM</span></span></button>
-      <div class="work-info"><div class="work-meta"><span class="ar">جمال · حملة منتجات</span><span class="en">BEAUTY · PRODUCT CAMPAIGN</span></div><h3><span class="ar">شركة I | إعلانات التونر والميسلار</span><span class="en">Company I | Toner & Micellar Ads</span></h3>
-        <p><span class="ar">إعلانان يبرزان منتجات التونر والميسلار وطريقة استخدامها.</span><span class="en">Two ads highlighting toner and micellar water in use.</span></p>
-      </div>
-      <template class="work-details"><p><span class="ar">إعلانان قصيران لمنتجات التونر والميسلار، يبرزان العبوات وطريقة الاستخدام بأسلوب بصري ناعم.</span><span class="en">Two short product ads for toner and micellar water, highlighting the products and their use through a clean beauty aesthetic.</span></p><div class="work-value"><b><span class="ar">محور العمل</span><span class="en">CREATIVE FOCUS</span></b><span class="ar">يبرز تفاصيل المنتجات وطريقة استخدامها ضمن معالجة تجميلية متناسقة.</span><span class="en">Highlights product details and use through a cohesive beauty treatment.</span></div></template>
-      <template class="work-films"><button class="watch-btn" type="button" data-src="assets/videos/1000553199.mp4" data-title-ar="إعلان مجموعة المنتجات" data-title-en="Product film"><span class="ar">إعلان مجموعة المنتجات</span><span class="en">Product film</span></button><button class="watch-btn" type="button" data-src="assets/videos/1000555390.mp4" data-webm="assets/webm/1000555390.webm" data-title-ar="إعلان الميسلار" data-title-en="Micellar ad"><span class="ar">إعلان الميسلار</span><span class="en">Micellar ad</span></button></template>
-    </article><article class="work-card" data-category="corporate" data-services="corporate">
-      <button class="work-preview" type="button" data-src="assets/videos/1000556070.mp4" data-webm="assets/webm/1000556070.webm" data-title-ar="شاهد الفيلم التعريفي" data-title-en="Play school film" aria-haspopup="dialog" aria-label="شاهد مشروع MOTHERLAND SCHOOL | مشروع صناعة إنسان" data-aria-en="Watch project MOTHERLAND SCHOOL | Shaping a Human" aria-describedby="poster-1000556070"><img loading="lazy" src="assets/posters/1000556070.jpg" id="poster-1000556070" alt="معلّمة وطلاب داخل صف في MOTHERLAND SCHOOL" data-alt-en="A teacher and students in a Motherland School classroom"><video class="hover-preview" muted playsinline loop preload="none" aria-hidden="true" data-preview="assets/previews/1000556070.webm" tabindex="-1"></video><span class="play-mark"><i>▶</i></span><span class="preview-label"><span class="ar">شاهد العمل</span><span class="en">WATCH FILM</span></span></button>
-      <div class="work-info"><div class="work-meta"><span class="ar">تعليم · فيلم مؤسسي</span><span class="en">EDUCATION · INSTITUTIONAL FILM</span></div><h3><span class="ar">MOTHERLAND SCHOOL | مشروع صناعة إنسان</span><span class="en">MOTHERLAND SCHOOL | Shaping a Human</span></h3>
-        <p><span class="ar">فيلم عن أجواء الأكاديمية النموذجية في حلب ورسالتها التعليمية.</span><span class="en">A film about the learning environment and mission of the academy in Aleppo.</span></p>
-      </div>
-      <template class="work-details"><p><span class="ar">فيلم تعريفي للأكاديمية النموذجية في حلب، يستعرض أجواء المدرسة وأنشطتها التعليمية والإبداعية ورسالتها «مشروع صناعة إنسان».</span><span class="en">An introduction to the model academy in Aleppo, its learning environment and creative activities, guided by its message: “Shaping a Human.”</span></p><div class="work-value"><b><span class="ar">محور العمل</span><span class="en">CREATIVE FOCUS</span></b><span class="ar">يوصل رسالة المدرسة التعليمية ويعرّف بأجوائها وأنشطتها.</span><span class="en">Communicates the school’s educational message, atmosphere and activities.</span></div></template>
-    </article><article class="work-card" data-category="digital" data-services="short">
-      <button class="work-preview" type="button" data-src="assets/videos/1000609212.mp4" data-webm="assets/webm/1000609212.webm" data-title-ar="شاهد البرومو" data-title-en="Play teaser" aria-haspopup="dialog" aria-label="شاهد مشروع سوريا وجهتك القادمة | تمهيد لمنصة الحجز السياحي" data-aria-en="Watch project Syria, Your Next Destination | Tourism Booking Platform Teaser" aria-describedby="poster-1000609212"><img loading="lazy" src="assets/posters/1000609212.jpg" id="poster-1000609212" alt="لقطة جوية لخليج تحيط به تلال خضراء في برومو السياحة السورية" data-alt-en="Aerial view of a bay surrounded by green hills in the Syria tourism teaser"><video class="hover-preview" muted playsinline loop preload="none" aria-hidden="true" data-preview="assets/previews/1000609212.webm" tabindex="-1"></video><span class="play-mark"><i>▶</i></span><span class="preview-label"><span class="ar">شاهد العمل</span><span class="en">WATCH FILM</span></span></button>
-      <div class="work-info"><div class="work-meta"><span class="ar">مفهوم رقمي · سياحة</span><span class="en">DIGITAL CONCEPT · TOURISM</span></div><h3><span class="ar">سوريا وجهتك القادمة | تمهيد لمنصة الحجز السياحي</span><span class="en">Syria, Your Next Destination | Tourism Booking Platform Teaser</span></h3>
-        <p><span class="ar">برومو لمنصة حجز تروّج للوجهات السياحية في سوريا.</span><span class="en">A teaser for a booking platform showcasing Syrian destinations.</span></p>
-      </div>
-      <template class="work-details"><p><span class="ar">برومو تمهيدي يستعرض مناطق سياحية ومعالم أثرية في سوريا، ويهيّئ لمنصة تربط المنتجعات بالمسافرين وتسهّل الحجز.</span><span class="en">A teaser exploring Syria’s destinations and heritage sites ahead of a booking platform connecting resorts with travelers.</span></p><div class="work-value"><b><span class="ar">محور العمل</span><span class="en">CREATIVE FOCUS</span></b><span class="ar">يمهّد لفكرة المنصة عبر تقديم الوجهات التي تساعد المسافر على اكتشافها.</span><span class="en">Introduces the platform idea by presenting destinations for travelers to discover.</span></div></template>
-    </article><article class="work-card" data-category="aviation" data-services="cinematic motion">
-      <button class="work-preview" type="button" data-src="assets/videos/1000613493.mp4" data-webm="assets/webm/1000613493.webm" data-title-ar="إعلان إطلاق البطاقات" data-title-en="Launch commercial" aria-haspopup="dialog" aria-label="شاهد مشروع فلاي شام | إطلاق بطاقات الصعود الجديدة" data-aria-en="Watch project Fly Cham | New Boarding Pass Launch" aria-describedby="poster-1000613493"><img loading="lazy" src="assets/posters/1000613493.jpg" id="poster-1000613493" alt="مسافر عند كاونتر تسجيل الرحلات في إعلان بطاقات فلاي شام" data-alt-en="A passenger at a check-in counter in the Fly Cham boarding pass campaign"><video class="hover-preview" muted playsinline loop preload="none" aria-hidden="true" data-preview="assets/previews/1000613493.webm" tabindex="-1"></video><span class="play-mark"><i>▶</i></span><span class="preview-label"><span class="ar">شاهد العمل</span><span class="en">WATCH FILM</span></span></button>
-      <div class="work-info"><div class="work-meta"><span class="ar">طيران · حملة مترابطة</span><span class="en">AVIATION · CONNECTED CAMPAIGN</span></div><h3><span class="ar">فلاي شام | إطلاق بطاقات الصعود الجديدة</span><span class="en">Fly Cham | New Boarding Pass Launch</span></h3>
-        <p><span class="ar">إعلان إطلاق بطاقات الصعود وفيلم يشرح فئاتها.</span><span class="en">A boarding pass launch ad and a film explaining the fare classes.</span></p>
-        <a class="project-case-link ar" href="projects/fly-cham-boarding-passes/">شاهد الفيلم ودراسة الحالة</a>
-        <a class="project-case-link en" href="en/projects/fly-cham-boarding-passes/">Watch the film and read the case study</a>
-      </div>
-      <template class="work-details"><p><span class="ar">حملة من فيديوهين: إعلان يقدّم بطاقات الصعود الجديدة، وموشن غرافيك يوضح تفاصيل ومزايا فئاتها.</span><span class="en">A two-film campaign introducing the new boarding passes, followed by a motion graphic explaining fare classes and benefits.</span></p><div class="work-value"><b><span class="ar">محور العمل</span><span class="en">CREATIVE FOCUS</span></b><span class="ar">يعرّف بفئات البطاقات الجديدة ويشرح تفاصيلها بصريًا.</span><span class="en">Introduces the new boarding pass tiers and explains them visually.</span></div></template>
-      <template class="work-films"><button class="watch-btn" type="button" data-src="assets/videos/1000613493.mp4" data-webm="assets/webm/1000613493.webm" data-title-ar="إعلان إطلاق البطاقات" data-title-en="Launch commercial"><span class="ar">إعلان إطلاق البطاقات</span><span class="en">Launch commercial</span></button><button class="watch-btn" type="button" data-src="assets/videos/1000615792.mp4" data-webm="assets/webm/1000615792.webm" data-title-ar="شرح الفئات والتفاصيل" data-title-en="Boarding pass explainer"><span class="ar">شرح الفئات والتفاصيل</span><span class="en">Boarding pass explainer</span></button></template>
-    </article><article class="work-card" data-category="campaign" data-services="product">
-      <button class="work-preview" type="button" data-src="assets/videos/1000630523.mp4" data-webm="assets/webm/1000630523.webm" data-title-ar="شاهد فيديو المنتجات" data-title-en="Play product film" aria-haspopup="dialog" aria-label="شاهد مشروع شركة I | فيلم استعراضي للمنتجات" data-aria-en="Watch project Company I | Product Music Film" aria-describedby="poster-1000630523"><img loading="lazy" src="assets/posters/1000630523.jpg" id="poster-1000630523" alt="مجموعة عبوات من شركة I على سطح لامع بإضاءة دافئة" data-alt-en="Company I bottles on a reflective surface in warm light"><video class="hover-preview" muted playsinline loop preload="none" aria-hidden="true" data-preview="assets/previews/1000630523.webm" tabindex="-1"></video><span class="play-mark"><i>▶</i></span><span class="preview-label"><span class="ar">شاهد العمل</span><span class="en">WATCH FILM</span></span></button>
-      <div class="work-info"><div class="work-meta"><span class="ar">منتجات · فيلم موسيقي</span><span class="en">PRODUCTS · MUSIC FILM</span></div><h3><span class="ar">شركة I | فيلم استعراضي للمنتجات</span><span class="en">Company I | Product Music Film</span></h3>
-        <p><span class="ar">فيلم موسيقي يستعرض مجموعة منتجات الشركة.</span><span class="en">A music-led showcase of the company’s product range.</span></p>
-      </div>
-      <template class="work-details"><p><span class="ar">فيديو كليب على أغنية يستعرض مجموعة منتجات الشركة وفق رؤيتها وطلبها.</span><span class="en">A music-led product film showcasing the company’s range in line with its brief.</span></p><div class="work-value"><b><span class="ar">محور العمل</span><span class="en">CREATIVE FOCUS</span></b><span class="ar">يعرض مجموعة المنتجات في صيغة موسيقية تناسب طلب الشركة.</span><span class="en">Showcases the product range in a music-led format shaped around the brief.</span></div></template>
-    </article><article class="work-card" data-category="aviation" data-services="cinematic short">
-      <button class="work-preview" type="button" data-src="assets/videos/1000637788.mp4" data-webm="assets/webm/1000637788.webm" data-title-ar="شاهد إعلان الدرون" data-title-en="Play drone film" aria-haspopup="dialog" aria-label="شاهد مشروع فلاي شام | استعراض الطائرة بالدرون" data-aria-en="Watch project Fly Cham | Drone Aircraft Showcase" aria-describedby="poster-1000637788"><img loading="lazy" src="assets/posters/1000637788.jpg" id="poster-1000637788" alt="ذيل طائرة فلاي شام على أرض المطار في لقطة من فيلم الدرون" data-alt-en="The tail of a Fly Cham aircraft on the airfield in the drone film"><video class="hover-preview" muted playsinline loop preload="none" aria-hidden="true" data-preview="assets/previews/1000637788.webm" tabindex="-1"></video><span class="play-mark"><i>▶</i></span><span class="preview-label"><span class="ar">شاهد العمل</span><span class="en">WATCH FILM</span></span></button>
-      <div class="work-info"><div class="work-meta"><span class="ar">طيران · فيلم درون</span><span class="en">AVIATION · DRONE FILM</span></div><h3><span class="ar">فلاي شام | استعراض الطائرة بالدرون</span><span class="en">Fly Cham | Drone Aircraft Showcase</span></h3>
-        <p><span class="ar">استعراض جوي لطائرة فلاي شام من المدرج إلى الإقلاع.</span><span class="en">An aerial showcase of a Fly Cham aircraft from airfield to takeoff.</span></p>
-      </div>
-      <template class="work-details"><p><span class="ar">إعلان درون يستعرض طائرة فلاي شام ومشاهدها على أرض المطار وفي أجواء الإقلاع.</span><span class="en">A drone-led film showcasing a Fly Cham aircraft on the airfield and during takeoff.</span></p><div class="work-value"><b><span class="ar">محور العمل</span><span class="en">CREATIVE FOCUS</span></b><span class="ar">يمنح استعراض الطائرة إيقاعًا جويًا وحركة بصرية مرتبطة بالطيران.</span><span class="en">Uses aerial movement to give the aircraft showcase a flight-led visual rhythm.</span></div></template>
-    </article>
-    <article class="work-card" data-category="aviation" data-services="story">
-      <button class="work-preview" type="button" data-src="assets/videos/1000556072.mp4" data-webm="assets/webm/1000556072.webm" data-title-ar="فيلم فلاي شام الترويجي" data-title-en="Fly Cham brand film" aria-haspopup="dialog" aria-label="شاهد مشروع فلاي شام | فيلم ترويجي للطائرة" data-aria-en="Watch project Fly Cham | Aircraft Brand Film" aria-describedby="poster-1000556072"><img loading="lazy" src="assets/posters/1000556072.jpg" id="poster-1000556072" alt="طائرة فلاي شام من الأمام على أرض المطار عند الغروب" data-alt-en="A Fly Cham aircraft seen head-on at sunset on the airfield"><video class="hover-preview" muted playsinline loop preload="none" aria-hidden="true" data-preview="assets/previews/1000556072.webm" tabindex="-1"></video><span class="play-mark"><i>▶</i></span><span class="preview-label"><span class="ar">شاهد العمل</span><span class="en">WATCH FILM</span></span></button>
-      <div class="work-info"><div class="work-meta"><span class="ar">طيران · فيلم علامة</span><span class="en">AVIATION · BRAND FILM</span></div><h3><span class="ar">فلاي شام | فيلم ترويجي للطائرة</span><span class="en">Fly Cham | Aircraft Brand Film</span></h3>
-        <p><span class="ar">فيلم ترويجي لفلاي شام بلقطات جوية ومشاهد عند الغروب.</span><span class="en">A Fly Cham brand film with aerial and sunset footage.</span></p>
-      </div>
-      <template class="work-details"><p><span class="ar">فيلم ترويجي سينمائي يقدّم طائرة فلاي شام بلقطات جوية ومشاهد عند الغروب، ويمنح العلامة حضورًا بصريًا لافتًا.</span><span class="en">A cinematic promotional film presenting the Fly Cham aircraft through aerial and sunset scenes, giving the airline a distinctive visual presence.</span></p><div class="work-value"><b><span class="ar">محور العمل</span><span class="en">CREATIVE FOCUS</span></b><span class="ar">يبني حضورًا للطائرة والعلامة عبر مشاهد ترويجية سينمائية.</span><span class="en">Builds a cinematic promotional presence for the aircraft and airline.</span></div></template>
-    </article><article class="work-card" data-category="beauty" data-services="cinematic short">
-      <button class="work-preview" type="button" data-src="assets/videos/1000641101.mp4" data-webm="assets/webm/1000641101.webm" data-title-ar="شاهد الإعلان" data-title-en="Play beauty ad" aria-haspopup="dialog" aria-label="شاهد مشروع مركز آلاء للتجميل | حواجب ورموش وأظافر" data-aria-en="Watch project Alaa Beauty Center | Brows, Lashes & Nails" aria-describedby="poster-1000641101"><img loading="lazy" src="assets/posters/1000641101.jpg" id="poster-1000641101" alt="لقطة مقرّبة لأظافر بطلاء أسود في إعلان مركز آلاء" data-alt-en="Close-up of black nail polish in the Alaa Beauty Center campaign"><video class="hover-preview" muted playsinline loop preload="none" aria-hidden="true" data-preview="assets/previews/1000641101.webm" tabindex="-1"></video><span class="play-mark"><i>▶</i></span><span class="preview-label"><span class="ar">شاهد العمل</span><span class="en">WATCH FILM</span></span></button>
-      <div class="work-info"><div class="work-meta"><span class="ar">جمال · حملة خدمات</span><span class="en">BEAUTY · SERVICE CAMPAIGN</span></div><h3><span class="ar">مركز آلاء للتجميل | حواجب ورموش وأظافر</span><span class="en">Alaa Beauty Center | Brows, Lashes & Nails</span></h3>
-        <p><span class="ar">إعلان لخدمات الحواجب والرموش والعناية بالأظافر.</span><span class="en">A campaign for brow, lash and nail services.</span></p>
-      </div>
-      <template class="work-details"><p><span class="ar">إعلان بصري يبرز خدمات المركز في تنسيق الحواجب والرموش والعناية بالأظافر.</span><span class="en">A beauty campaign highlighting brow and lash styling and manicure services.</span></p><div class="work-value"><b><span class="ar">محور العمل</span><span class="en">CREATIVE FOCUS</span></b><span class="ar">يعرّف بخدمات المركز في الحواجب والرموش والأظافر.</span><span class="en">Introduces the center’s brow, lash and nail services.</span></div></template>
-    </article><article class="work-card" data-category="design" data-services="cinematic">
-      <button class="work-preview" type="button" data-src="assets/videos/1000641048.mp4" data-webm="assets/webm/1000641048.webm" data-title-ar="شاهد المشروع" data-title-en="Play project film" aria-haspopup="dialog" aria-label="شاهد مشروع اللمسة الذكية | ديكورات وإضاءة الفلل" data-aria-en="Watch project Smart Touch | Villa Interiors & Lighting" aria-describedby="poster-1000641048"><img loading="lazy" src="assets/posters/1000641048.jpg" id="poster-1000641048" alt="ممر في فيلا مع إضاءة سقف مخفية في إعلان اللمسة الذكية" data-alt-en="A villa corridor with recessed ceiling lighting in the Smart Touch film"><video class="hover-preview" muted playsinline loop preload="none" aria-hidden="true" data-preview="assets/previews/1000641048.webm" tabindex="-1"></video><span class="play-mark"><i>▶</i></span><span class="preview-label"><span class="ar">شاهد العمل</span><span class="en">WATCH FILM</span></span></button>
-      <div class="work-info"><div class="work-meta"><span class="ar">تصميم داخلي · إضاءة · تنفيذ</span><span class="en">INTERIORS · LIGHTING · EXECUTION</span></div><h3><span class="ar">اللمسة الذكية | ديكورات وإضاءة الفلل</span><span class="en">Smart Touch | Villa Interiors & Lighting</span></h3>
-        <p><span class="ar">فيلم يستعرض تصميم الفلل وحلول الإضاءة الداخلية.</span><span class="en">A showcase of villa interiors and lighting design.</span></p>
-      </div>
-      <template class="work-details"><p><span class="ar">إعلان يستعرض تصاميم الفلل والديكورات الداخلية وحلول الإضاءة، ومشاريع الشركة في التعهدات والتنفيذ.</span><span class="en">A showcase of villa interiors, lighting design and Smart Touch’s contracting and project execution work.</span></p><div class="work-value"><b><span class="ar">محور العمل</span><span class="en">CREATIVE FOCUS</span></b><span class="ar">يبرز علاقة التصميم الداخلي والإضاءة بشكل المساحة النهائي.</span><span class="en">Shows how interior design and lighting shape a finished space.</span></div></template>
-    </article><article class="work-card" data-category="health" data-services="story corporate">
-      <button class="work-preview" type="button" data-src="assets/videos/1000533807.mp4" data-webm="assets/webm/1000533807.webm" data-title-ar="شاهد الفيلم التعريفي" data-title-en="Play healthcare film" aria-haspopup="dialog" aria-label="شاهد مشروع مركز توازن الطبي | رؤية متكاملة للرعاية" data-aria-en="Watch project Tawazon Medical Center | Integrated Care Vision" aria-describedby="poster-1000533807"><img loading="lazy" src="assets/posters/1000533807.jpg" id="poster-1000533807" alt="رسم لجسم الإنسان في فيلم مركز توازن الطبي" data-alt-en="An illustration of the human body in the Tawazon Medical Center film"><video class="hover-preview" muted playsinline loop preload="none" aria-hidden="true" data-preview="assets/previews/1000533807.webm" tabindex="-1"></video><span class="play-mark"><i>▶</i></span><span class="preview-label"><span class="ar">شاهد العمل</span><span class="en">WATCH FILM</span></span></button>
-      <div class="work-info"><div class="work-meta"><span class="ar">رعاية صحية · فيلم علامة</span><span class="en">HEALTHCARE · BRAND FILM</span></div><h3><span class="ar">مركز توازن الطبي | رؤية متكاملة للرعاية</span><span class="en">Tawazon Medical Center | Integrated Care Vision</span></h3>
-        <p><span class="ar">فيلم تعريفي برؤية مركز توازن للرعاية الصحية.</span><span class="en">An introduction to Tawazon’s approach to healthcare.</span></p>
-      </div>
-      <template class="work-details"><p><span class="ar">فيلم تعريفي يعرض رؤية المركز في الجمع بين التشخيص الطبي الحديث والأعشاب والخلطات العشبية الخاصة والعلاج الدوائي، وفق ما يناسب الحالة وتحت إشراف مختصين.</span><span class="en">An introduction to the center’s approach, bringing modern medical diagnosis together with herbs, proprietary herbal blends and medication as appropriate under professional supervision.</span></p><div class="work-value"><b><span class="ar">محور العمل</span><span class="en">CREATIVE FOCUS</span></b><span class="ar">يشرح رؤية المركز في الرعاية بصياغة تعريفية واضحة ومتوازنة.</span><span class="en">Explains the center’s care approach in a clear introductory film.</span></div></template>
-    </article>
-      </div>
+<article class="work-card" data-category="corporate" data-services="cinematic short"><a class="work-preview" href="/projects/royal-clean/" data-project-ar="/projects/royal-clean/" data-project-en="/en/projects/royal-clean/" aria-label="أعمال Royal Clean" data-aria-en="Royal Clean films and projects"><img loading="lazy" src="https://i.ytimg.com/vi/F9w5o9j4u5s/hqdefault.jpg" alt="Royal Clean — الفيديو الأول" data-alt-en="Royal Clean — first film"><span class="play-mark"><i>↗</i></span><span class="preview-label"><span class="ar">اكتشف المشاريع والأفلام</span><span class="en">EXPLORE PROJECTS &amp; FILMS</span></span></a><div class="work-info"><div class="work-meta"><span class="ar">3 أفلام</span><span class="en">3 FILMS</span></div><h3><span class="ar">Royal Clean</span><span class="en">Royal Clean</span></h3><p><span class="ar">حملة إعلانية لخدمات التنظيف، تجمع ثلاثة أفلام ضمن هوية بصرية واحدة لعلامة Royal Clean في كولن، ألمانيا.</span><span class="en">A three-film cleaning services campaign with a consistent visual identity for Royal Clean in Cologne, Germany.</span></p><a class="project-case-link ar" href="/projects/royal-clean/">افتح ملف الأعمال ↗</a><a class="project-case-link en" href="/en/projects/royal-clean/">Explore the work ↗</a></div></article>
+<article class="work-card" data-category="corporate" data-services="cinematic"><a class="work-preview" href="/projects/nisso-umzug/" data-project-ar="/projects/nisso-umzug/" data-project-en="/en/projects/nisso-umzug/" aria-label="أعمال NISSO UMZUG" data-aria-en="NISSO UMZUG films and projects"><img loading="lazy" src="/assets/posters/1000679451.jpg" alt="عاملان من NISSO UMZUG يحملان قطعة أثاث على الدرج" data-alt-en="Two NISSO UMZUG movers carry furniture up a stairwell" width="960" height="540"><span class="play-mark"><i>↗</i></span><span class="preview-label"><span class="ar">اكتشف المشاريع والأفلام</span><span class="en">EXPLORE PROJECTS &amp; FILMS</span></span></a><div class="work-info"><div class="work-meta"><span class="ar">فيلمان</span><span class="en">2 FILMS</span></div><h3><span class="ar">NISSO UMZUG</span><span class="en">NISSO UMZUG</span></h3><p><span class="ar">فيلمان لخدمات الانتقال وإخلاء المساحات؛ معالجة إعلانية تربط وضوح الخدمة بتجربة العميل.</span><span class="en">Two commercials for moving and clearance services, connecting a clear service message with the customer experience.</span></p><a class="project-case-link ar" href="/projects/nisso-umzug/">افتح ملف الأعمال ↗</a><a class="project-case-link en" href="/en/projects/nisso-umzug/">Explore the work ↗</a></div></article>
+<article class="work-card" data-category="brand" data-services="story"><a class="work-preview" href="/projects/al-farah-gourmet/" data-project-ar="/projects/al-farah-gourmet/" data-project-en="/en/projects/al-farah-gourmet/" aria-label="أعمال الفرح غورميه" data-aria-en="Al Farah Gourmet films and projects"><img loading="lazy" src="/assets/posters/1000520055.jpg" alt="طبق لحم مشوي مع خضار في فيلم الفرح غورميه" data-alt-en="Grilled meat with vegetables in the Al Farah Gourmet film" width="900" height="1600"><span class="play-mark"><i>↗</i></span><span class="preview-label"><span class="ar">اكتشف المشاريع والأفلام</span><span class="en">EXPLORE PROJECTS &amp; FILMS</span></span></a><div class="work-info"><div class="work-meta"><span class="ar">فيلم واحد</span><span class="en">1 FILM</span></div><h3><span class="ar">الفرح غورميه</span><span class="en">Al Farah Gourmet</span></h3><p><span class="ar">فيلم علامة تجارية يقدّم قصة الفرح غورميه، من البدايات إلى التوسع، ضمن معالجة تحتفي بهوية العلامة.</span><span class="en">A brand film presenting Al Farah Gourmet’s journey from its beginnings to growth through a treatment rooted in its identity.</span></p><a class="project-case-link ar" href="/projects/al-farah-gourmet/">افتح ملف الأعمال ↗</a><a class="project-case-link en" href="/en/projects/al-farah-gourmet/">Explore the work ↗</a></div></article>
+<article class="work-card" data-category="corporate" data-services="corporate"><a class="work-preview" href="/projects/rjbi/" data-project-ar="/projects/rjbi/" data-project-en="/en/projects/rjbi/" aria-label="أعمال RJBI" data-aria-en="RJBI films and projects"><img loading="lazy" src="/assets/posters/1000533815.jpg" alt="مقدّم افتراضي أمام لوحتين تعرضان خدمات RJBI" data-alt-en="A virtual presenter in front of two RJBI service panels" width="640" height="360"><span class="play-mark"><i>↗</i></span><span class="preview-label"><span class="ar">اكتشف المشاريع والأفلام</span><span class="en">EXPLORE PROJECTS &amp; FILMS</span></span></a><div class="work-info"><div class="work-meta"><span class="ar">فيلم واحد</span><span class="en">1 FILM</span></div><h3><span class="ar">RJBI</span><span class="en">RJBI</span></h3><p><span class="ar">فيلم تعريفي يبسّط عرض خدمات RJBI في ألمانيا من خلال مقدّم افتراضي ومعالجة بصرية واضحة.</span><span class="en">A service introduction for RJBI in Germany, using a virtual presenter and a clear visual treatment.</span></p><a class="project-case-link ar" href="/projects/rjbi/">افتح ملف الأعمال ↗</a><a class="project-case-link en" href="/en/projects/rjbi/">Explore the work ↗</a></div></article>
+<article class="work-card" data-category="corporate" data-services="cinematic"><a class="work-preview" href="/projects/beeorder/" data-project-ar="/projects/beeorder/" data-project-en="/en/projects/beeorder/" aria-label="أعمال BeeORDER" data-aria-en="BeeORDER films and projects"><img loading="lazy" src="/assets/posters/1000556076.jpg" alt="حقيبة توصيل BeeORDER البرتقالية في أحد شوارع المدينة" data-alt-en="An orange BeeORDER delivery bag on a city street" width="900" height="1596"><span class="play-mark"><i>↗</i></span><span class="preview-label"><span class="ar">اكتشف المشاريع والأفلام</span><span class="en">EXPLORE PROJECTS &amp; FILMS</span></span></a><div class="work-info"><div class="work-meta"><span class="ar">فيلم واحد</span><span class="en">1 FILM</span></div><h3><span class="ar">BeeORDER</span><span class="en">BeeORDER</span></h3><p><span class="ar">إعلان لخدمة توصيل الطلبات، يربط حضور BeeORDER بإيقاع المدينة وتجربة التوصيل.</span><span class="en">A delivery commercial connecting BeeORDER’s brand presence with the pace of the city and the delivery experience.</span></p><a class="project-case-link ar" href="/projects/beeorder/">افتح ملف الأعمال ↗</a><a class="project-case-link en" href="/en/projects/beeorder/">Explore the work ↗</a></div></article>
+<article class="work-card" data-category="beauty" data-services="product cinematic"><a class="work-preview" href="/projects/company-i/" data-project-ar="/projects/company-i/" data-project-en="/en/projects/company-i/" aria-label="أعمال شركة I" data-aria-en="Company I films and projects"><img loading="lazy" src="/assets/posters/1000553199.jpg" alt="عبوات التونر والميسلار من شركة I بجوار شرائح خيار" data-alt-en="Company I toner and micellar water bottles beside sliced cucumber" width="900" height="676"><span class="play-mark"><i>↗</i></span><span class="preview-label"><span class="ar">اكتشف المشاريع والأفلام</span><span class="en">EXPLORE PROJECTS &amp; FILMS</span></span></a><div class="work-info"><div class="work-meta"><span class="ar">3 أفلام</span><span class="en">3 FILMS</span></div><h3><span class="ar">شركة I</span><span class="en">Company I</span></h3><p><span class="ar">مشروعان بثلاثة أفلام: إعلان للتونر، وإعلان للميسلار، وفيلم موسيقي يستعرض مجموعة المنتجات.</span><span class="en">Two projects across three films: a toner commercial, a micellar water commercial and a music-led product range film.</span></p><a class="project-case-link ar" href="/projects/company-i/">افتح ملف الأعمال ↗</a><a class="project-case-link en" href="/en/projects/company-i/">Explore the work ↗</a></div></article>
+<article class="work-card" data-category="corporate" data-services="corporate"><a class="work-preview" href="/projects/motherland-school/" data-project-ar="/projects/motherland-school/" data-project-en="/en/projects/motherland-school/" aria-label="أعمال MOTHERLAND SCHOOL" data-aria-en="MOTHERLAND SCHOOL films and projects"><img loading="lazy" src="/assets/posters/1000556070.jpg" alt="معلّمة وطلاب داخل صف في MOTHERLAND SCHOOL" data-alt-en="A teacher and students in a Motherland School classroom" width="900" height="1600"><span class="play-mark"><i>↗</i></span><span class="preview-label"><span class="ar">اكتشف المشاريع والأفلام</span><span class="en">EXPLORE PROJECTS &amp; FILMS</span></span></a><div class="work-info"><div class="work-meta"><span class="ar">فيلم واحد</span><span class="en">1 FILM</span></div><h3><span class="ar">MOTHERLAND SCHOOL</span><span class="en">MOTHERLAND SCHOOL</span></h3><p><span class="ar">فيلم تعريفي برسالة الأكاديمية النموذجية في حلب، يربط بيئة التعلم بالقيم والأنشطة التعليمية والإبداعية.</span><span class="en">A film introducing the mission of the academy in Aleppo through its learning environment, values and educational and creative activities.</span></p><a class="project-case-link ar" href="/projects/motherland-school/">افتح ملف الأعمال ↗</a><a class="project-case-link en" href="/en/projects/motherland-school/">Explore the work ↗</a></div></article>
+<article class="work-card" data-category="digital" data-services="cinematic"><a class="work-preview" href="/projects/hoojuzat/" data-project-ar="/projects/hoojuzat/" data-project-en="/en/projects/hoojuzat/" aria-label="أعمال حجوزات" data-aria-en="Hoojuzat films and projects"><img loading="lazy" src="/assets/posters/1000609212.jpg" alt="لقطة جوية لخليج تحيط به تلال خضراء في برومو السياحة السورية" data-alt-en="Aerial view of a bay surrounded by green hills in the Syria tourism teaser" width="720" height="1280"><span class="play-mark"><i>↗</i></span><span class="preview-label"><span class="ar">اكتشف المشاريع والأفلام</span><span class="en">EXPLORE PROJECTS &amp; FILMS</span></span></a><div class="work-info"><div class="work-meta"><span class="ar">فيلم واحد</span><span class="en">1 FILM</span></div><h3><span class="ar">حجوزات</span><span class="en">Hoojuzat</span></h3><p><span class="ar">فيلم يستعرض وجهات سياحية في سوريا، ضمن معالجة ترويجية لفكرة منصة حجوزات.</span><span class="en">A film showcasing destinations in Syria through a promotional treatment for a travel booking platform concept.</span></p><a class="project-case-link ar" href="/projects/hoojuzat/">افتح ملف الأعمال ↗</a><a class="project-case-link en" href="/en/projects/hoojuzat/">Explore the work ↗</a></div></article>
+<article class="work-card" data-category="aviation" data-services="cinematic motion story"><a class="work-preview" href="/projects/fly-cham/" data-project-ar="/projects/fly-cham/" data-project-en="/en/projects/fly-cham/" aria-label="أعمال فلاي شام" data-aria-en="Fly Cham films and projects"><img loading="lazy" src="/assets/posters/1000613493.jpg" alt="مسافر عند كاونتر تسجيل الرحلات في إعلان بطاقات فلاي شام" data-alt-en="A passenger at a check-in counter in the Fly Cham boarding pass campaign" width="900" height="1600"><span class="play-mark"><i>↗</i></span><span class="preview-label"><span class="ar">اكتشف المشاريع والأفلام</span><span class="en">EXPLORE PROJECTS &amp; FILMS</span></span></a><div class="work-info"><div class="work-meta"><span class="ar">4 أفلام</span><span class="en">4 FILMS</span></div><h3><span class="ar">فلاي شام</span><span class="en">Fly Cham</span></h3><p><span class="ar">ثلاثة مشاريع بأربعة أفلام: حملة إطلاق بطاقات الصعود، واستعراض الطائرة بمنظور جوي، وفيلم ترويجي للعلامة.</span><span class="en">Three projects across four films: a boarding pass launch campaign, an aerial aircraft showcase and an airline brand film.</span></p><a class="project-case-link ar" href="/projects/fly-cham/">افتح ملف الأعمال ↗</a><a class="project-case-link en" href="/en/projects/fly-cham/">Explore the work ↗</a></div></article>
+<article class="work-card" data-category="beauty" data-services="cinematic"><a class="work-preview" href="/projects/alaa-beauty-center/" data-project-ar="/projects/alaa-beauty-center/" data-project-en="/en/projects/alaa-beauty-center/" aria-label="أعمال مركز آلاء للتجميل" data-aria-en="Alaa Beauty Center films and projects"><img loading="lazy" src="/assets/posters/1000641101.jpg" alt="لقطة مقرّبة لأظافر بطلاء أسود في إعلان مركز آلاء" data-alt-en="Close-up of black nail polish in the Alaa Beauty Center campaign" width="900" height="1636"><span class="play-mark"><i>↗</i></span><span class="preview-label"><span class="ar">اكتشف المشاريع والأفلام</span><span class="en">EXPLORE PROJECTS &amp; FILMS</span></span></a><div class="work-info"><div class="work-meta"><span class="ar">فيلم واحد</span><span class="en">1 FILM</span></div><h3><span class="ar">مركز آلاء للتجميل</span><span class="en">Alaa Beauty Center</span></h3><p><span class="ar">إعلان لخدمات الحواجب والرموش والأظافر، بمعالجة تركز على التفاصيل الجمالية وهوية المركز.</span><span class="en">A commercial for brow, lash and nail services, with a treatment focused on beauty details and the center’s identity.</span></p><a class="project-case-link ar" href="/projects/alaa-beauty-center/">افتح ملف الأعمال ↗</a><a class="project-case-link en" href="/en/projects/alaa-beauty-center/">Explore the work ↗</a></div></article>
+<article class="work-card" data-category="design" data-services="cinematic"><a class="work-preview" href="/projects/smart-touch/" data-project-ar="/projects/smart-touch/" data-project-en="/en/projects/smart-touch/" aria-label="أعمال اللمسة الذكية" data-aria-en="Smart Touch films and projects"><img loading="lazy" src="/assets/posters/1000641048.jpg" alt="ممر في فيلا مع إضاءة سقف مخفية في إعلان اللمسة الذكية" data-alt-en="A villa corridor with recessed ceiling lighting in the Smart Touch film" width="900" height="1600"><span class="play-mark"><i>↗</i></span><span class="preview-label"><span class="ar">اكتشف المشاريع والأفلام</span><span class="en">EXPLORE PROJECTS &amp; FILMS</span></span></a><div class="work-info"><div class="work-meta"><span class="ar">فيلم واحد</span><span class="en">1 FILM</span></div><h3><span class="ar">اللمسة الذكية</span><span class="en">Smart Touch</span></h3><p><span class="ar">فيلم يستعرض الديكور الداخلي والإضاءة، مع التركيز على علاقتهما بهوية المساحة.</span><span class="en">A film exploring interiors and lighting, focusing on how they shape the character of a space.</span></p><a class="project-case-link ar" href="/projects/smart-touch/">افتح ملف الأعمال ↗</a><a class="project-case-link en" href="/en/projects/smart-touch/">Explore the work ↗</a></div></article>
+<article class="work-card" data-category="health" data-services="corporate"><a class="work-preview" href="/projects/tawazon-medical-center/" data-project-ar="/projects/tawazon-medical-center/" data-project-en="/en/projects/tawazon-medical-center/" aria-label="أعمال مركز توازن الطبي" data-aria-en="Tawazon Medical Center films and projects"><img loading="lazy" src="/assets/posters/1000533807.jpg" alt="رسم لجسم الإنسان في فيلم مركز توازن الطبي" data-alt-en="An illustration of the human body in the Tawazon Medical Center film" width="900" height="1600"><span class="play-mark"><i>↗</i></span><span class="preview-label"><span class="ar">اكتشف المشاريع والأفلام</span><span class="en">EXPLORE PROJECTS &amp; FILMS</span></span></a><div class="work-info"><div class="work-meta"><span class="ar">فيلم واحد</span><span class="en">1 FILM</span></div><h3><span class="ar">مركز توازن الطبي</span><span class="en">Tawazon Medical Center</span></h3><p><span class="ar">فيلم تعريفي يقدّم رؤية مركز توازن الطبي في الرعاية، بأسلوب يركّز على وضوح الرسالة وهوية المركز.</span><span class="en">An introductory film presenting Tawazon Medical Center’s care vision, with a focus on message clarity and the center’s identity.</span></p><a class="project-case-link ar" href="/projects/tawazon-medical-center/">افتح ملف الأعمال ↗</a><a class="project-case-link en" href="/en/projects/tawazon-medical-center/">Explore the work ↗</a></div></article>
+<article class="work-card" data-category="corporate" data-services="corporate motion"><a class="work-preview" href="/projects/an-nur-islamic-centre/" data-project-ar="/projects/an-nur-islamic-centre/" data-project-en="/en/projects/an-nur-islamic-centre/" aria-label="أعمال مركز النور الإسلامي" data-aria-en="An-Nur Islamic Centre films and projects"><img loading="lazy" src="/assets/posters/an-nur-islamic-centre.jpg" alt="واجهة تحمل هوية مركز النور الإسلامي في فيلم المشروع" data-alt-en="An-Nur Islamic Centre identity on the building in the project film" width="720" height="1280"><span class="play-mark"><i>↗</i></span><span class="preview-label"><span class="ar">اكتشف المشاريع والأفلام</span><span class="en">EXPLORE PROJECTS &amp; FILMS</span></span></a><div class="work-info"><div class="work-meta"><span class="ar">فيلم واحد</span><span class="en">1 FILM</span></div><h3><span class="ar">مركز النور الإسلامي</span><span class="en">An-Nur Islamic Centre</span></h3><p><span class="ar">فيلم تعريفي لمشروع تأسيس وتطوير مركز النور الإسلامي في Finsterwalde بألمانيا، يقدّم رؤية تجمع العبادة والتعليم والعمل المجتمعي والاستدامة.</span><span class="en">An introductory film for the establishment and development of An-Nur Islamic Centre in Finsterwalde, Germany, presenting a vision of worship, education, community and sustainability.</span></p><a class="project-case-link ar" href="/projects/an-nur-islamic-centre/">افتح ملف الأعمال ↗</a><a class="project-case-link en" href="/en/projects/an-nur-islamic-centre/">Explore the work ↗</a></div></article>
+</div>
       <button class="btn-outline work-more" id="workMore" type="button" aria-controls="workGrid" aria-expanded="false" hidden><span class="ar">عرض باقي المشاريع</span><span class="en">Show more projects</span></button>
-      <div class="portfolio-hint"><span class="ar">اضغط على غلاف المشروع لمشاهدة أفلامه والاطلاع على تفاصيله.</span><span class="en">Select a project cover to watch its films and read about the work.</span></div>
+      <div class="portfolio-hint"><span class="ar">افتح ملف العميل لاستكشاف مشاريعه ومشاهدة أفلامه.</span><span class="en">Open a client portfolio to explore its projects and watch its films.</span></div>
     </div></section>
     <section class="section behind-section" id="craft"><div class="wrap">
       <div class="section-head"><div><div class="eyebrow"><span class="ar">من الفكرة إلى المشهد</span><span class="en">FROM IDEA TO FRAME</span></div><h2><span class="ar">الذكاء الاصطناعي أداة.<br>والإخراج هو ما يصنع الفرق.</span><span class="en">AI is a tool.<br>Direction makes the difference.</span></h2></div><p><span class="ar">كل مشروع يمر بقرارات بشرية واضحة: لماذا هذا المشهد؟ كيف نحافظ على منطق القصة والهوية؟ وما الذي يخدم الرسالة؟</span><span class="en">Every project is shaped by deliberate human decisions: why this scene, how to preserve story logic and identity, and what serves the message.</span></p></div>
@@ -461,28 +479,15 @@
     </div></section>
     <section class="section" id="about"><div class="wrap about-grid">
       <div class="about-mark">
-        <img class="about-logo brand-wordmark" src="assets/cinelogic-wordmark.svg" alt="Cinelogic" width="710" height="100" loading="lazy">
-        <img class="about-logo brand-wordmark light-bg" src="assets/cinelogic-wordmark-light-bg.svg" alt="Cinelogic" width="710" height="100" loading="lazy">
+        <img class="about-logo brand-wordmark" src="/assets/cinelogic-wordmark.svg" alt="Cinelogic" width="710" height="100" loading="lazy">
+        <img class="about-logo brand-wordmark light-bg" src="/assets/cinelogic-wordmark-light-bg.svg" alt="Cinelogic" width="710" height="100" loading="lazy">
       </div>
       <div class="about-copy"><div class="eyebrow"><span class="ar">عن Cinelogic</span><span class="en">ABOUT CINELOGIC</span></div><h2><span class="ar">إبداع يقوده الإخراج.<br>وتوسّعه التقنية.</span><span class="en">Directed with intent.<br>Expanded by technology.</span></h2><p><span class="ar">Cinelogic استوديو إبداعي متخصص في صناعة الأفلام والإعلانات بمساعدة الذكاء الاصطناعي. نستخدم التقنية لتوسيع الإمكانات، بينما تبقى الفكرة والسرد والإخراج ومراقبة الجودة في قلب كل مشروع.</span><span class="en">Cinelogic is an AI filmmaking and creative studio. We use technology to expand what can be made, while keeping concept, story, direction and quality control at the center of every project.</span></p><div class="principles"><div><b>01</b><span class="ar">الواقعية قبل الاستعراض</span><span class="en">Realism before spectacle</span></div><div><b>02</b><span class="ar">رسالة واحدة واضحة</span><span class="en">One clear message</span></div><div><b>03</b><span class="ar">هوية ثابتة عبر المشاهد</span><span class="en">Consistent identity</span></div><div><b>04</b><span class="ar">جودة تُراجع قبل التسليم</span><span class="en">Quality checked before delivery</span></div></div></div>
     </div></section>
-    <section class="section founder" id="founder"><div class="wrap founder-grid"><div class="founder-photo"><img src="assets/joudx-deeb.webp" alt="Joudx Deeb" loading="lazy"></div><div class="founder-copy"><div class="eyebrow"><span class="ar">العقل الإبداعي خلف Cinelogic</span><span class="en">THE CREATIVE MIND BEHIND CINELOGIC</span></div><h2>Joudx Deeb</h2><div class="founder-role"><span class="ar">المؤسس والمدير الإبداعي</span><span class="en">FOUNDER & CREATIVE DIRECTOR</span></div><blockquote class="founder-quote"><span class="quote-mark" aria-hidden="true">“</span><span class="ar"><strong class="quote-lead">أؤمن بأن التقنية لا تصنع الفن، بل تمنحه أجنحة؛</strong> والذكاء الاصطناعي بلا رؤية إخراجية مجرد أداة صامتة. في Cinelogic، نمنح الخيال روحاً، ونسخّر أدوات المستقبل لنصنع حكايات بصرية متماسكة تترك أثراً حقيقياً في وجدان المشاهد.</span><span class="en"><strong class="quote-lead">Technology doesn’t create art—it gives it wings.</strong> Without deliberate direction, AI is just a silent tool. At Cinelogic, we bring vision to life, leveraging cutting-edge technology to craft cinematic stories that truly resonate.</span></blockquote><p><span class="ar">يقود جودكس ديب تطوير الأفكار والإخراج الإبداعي في Cinelogic، من صياغة المعالجة والسيناريو إلى توجيه المشاهد ومراجعة اتساق الهوية. يدمج أدوات الذكاء الاصطناعي ضمن سير إنتاج مدروس، لتبقى القصة والقرار الإبداعي في المقدمة.</span><span class="en">Joudx Deeb leads creative development and direction at Cinelogic, from shaping treatments and scripts to guiding scenes and reviewing visual continuity. He integrates AI tools into a deliberate production workflow, keeping story and creative judgment at the center.</span></p><div class="founder-signature">CINELOGIC · JOUDX DEEB</div></div></div></section>
-    <section class="contact" id="contact"><div class="wrap"><div class="contact-row"><div><div class="eyebrow"><span class="ar">لنبدأ من فكرتك</span><span class="en">LET’S START WITH YOUR IDEA</span></div><h2><span class="ar">عندك مشروع؟ خلينا نحكي.</span><span class="en">Have a project? Let’s talk.</span></h2><p><span class="ar">جاوب على كم سؤال بسيط، ومنجهزلك رسالة واضحة على واتساب.</span><span class="en">Answer a few quick questions and we’ll prepare a clear WhatsApp brief.</span></p><a class="contact-phone" href="tel:+963994412211">+963 994 412 211</a></div><div class="contact-actions"><a class="contact-whatsapp" href="https://wa.me/963994412211?text=مرحبا%20Cinelogic،%20أرغب%20بمناقشة%20مشروع" target="_blank" rel="noopener noreferrer"><span class="ar">تواصل عبر واتساب</span><span class="en">WhatsApp</span> ↗</a><a class="social-btn" href="tel:+963994412211"><span class="ar">اتصال مباشر</span><span class="en">Call</span> · +963 994 412 211</a><a class="btn-gold" href="mailto:info@cinelogic.net?subject=Cinelogic%20Project%20Inquiry"><span class="ar">راسلنا بالبريد</span><span class="en">Email Cinelogic</span> ↗</a><a class="social-btn" href="https://www.instagram.com/Cinelogicc/" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a><a class="social-btn" href="https://www.facebook.com/Cinelogicc" target="_blank" rel="noopener noreferrer">FACEBOOK ↗</a><a class="social-btn" href="https://www.youtube.com/@Cinelogicc" target="_blank" rel="noopener noreferrer">YOUTUBE ↗</a></div></div><form class="brief-form" id="briefForm"><h3><span class="ar">موجز سريع لمشروعك</span><span class="en">A quick project brief</span></h3><p><span class="ar">اختَر الأنسب، وعدّل التفاصيل لاحقًا مع فريقنا.</span><span class="en">Choose what fits; refine the details with our team later.</span></p><div class="brief-fields"><label><span class="ar">نوع المشروع</span><span class="en">Project type</span><select name="project" required><option value="">—</option><option value="إعلان سينمائي|Cinematic advertisement" data-en="Cinematic ad">إعلان سينمائي</option><option value="فيديو منتج|Product film" data-en="Product film">فيديو منتج</option><option value="حملة متكاملة|Connected campaign" data-en="Connected campaign">حملة متكاملة</option><option value="فيلم تعريفي|Brand or corporate film" data-en="Brand film">فيلم تعريفي</option><option value="موشن غرافيك|Motion graphics" data-en="Motion graphics">موشن غرافيك</option><option value="مشروع آخر|Other project" data-en="Other project">مشروع آخر</option></select></label><label><span class="ar">موعد التسليم المتوقع</span><span class="en">Expected delivery</span><select name="timing" required><option value="">—</option><option value="خلال أسبوعين|Within two weeks" data-en="Within two weeks">خلال أسبوعين</option><option value="خلال شهر|Within a month" data-en="Within a month">خلال شهر</option><option value="أكثر من شهر|More than a month" data-en="More than a month">أكثر من شهر</option><option value="مرن|Flexible" data-en="Flexible">مرن</option></select></label><label><span class="ar">اسمك</span><span class="en">Your name</span><input name="name" autocomplete="name" required placeholder="الاسم" data-placeholder-en="Name"></label><label><span class="ar">رقم واتساب</span><span class="en">WhatsApp number</span><input name="phone" type="tel" autocomplete="tel" required placeholder="+963…"></label></div><button class="brief-submit" type="submit"><span class="ar">جهّز رسالة واتساب ↗</span><span class="en">Continue to WhatsApp ↗</span></button><p class="brief-hint"><span class="ar">لن تُرسل البيانات تلقائيًا؛ ستراجع الرسالة قبل إرسالها على واتساب.</span><span class="en">Your details are not sent automatically; you can review the message before sending it on WhatsApp.</span></p></form></div></section>
+    <section class="section founder" id="founder"><div class="wrap founder-grid"><div class="founder-photo"><img src="/assets/joudx-deeb.webp" alt="Joudx Deeb" loading="lazy" width="1152" height="1536"></div><div class="founder-copy"><div class="eyebrow"><span class="ar">العقل الإبداعي خلف Cinelogic</span><span class="en">THE CREATIVE MIND BEHIND CINELOGIC</span></div><h2>Joudx Deeb</h2><div class="founder-role"><span class="ar">المؤسس والمدير الإبداعي</span><span class="en">FOUNDER & CREATIVE DIRECTOR</span></div><blockquote class="founder-quote"><span class="quote-mark" aria-hidden="true">“</span><span class="ar"><strong class="quote-lead">أؤمن بأن التقنية لا تصنع الفن، بل تمنحه أجنحة؛</strong> والذكاء الاصطناعي بلا رؤية إخراجية مجرد أداة صامتة. في Cinelogic، نمنح الخيال روحاً، ونسخّر أدوات المستقبل لنصنع حكايات بصرية متماسكة تترك أثراً حقيقياً في وجدان المشاهد.</span><span class="en"><strong class="quote-lead">Technology doesn’t create art—it gives it wings.</strong> Without deliberate direction, AI is just a silent tool. At Cinelogic, we bring vision to life, leveraging cutting-edge technology to craft cinematic stories that truly resonate.</span></blockquote><p><span class="ar">يقود جودكس ديب تطوير الأفكار والإخراج الإبداعي في Cinelogic، من صياغة المعالجة والسيناريو إلى توجيه المشاهد ومراجعة اتساق الهوية. يدمج أدوات الذكاء الاصطناعي ضمن سير إنتاج مدروس، لتبقى القصة والقرار الإبداعي في المقدمة.</span><span class="en">Joudx Deeb leads creative development and direction at Cinelogic, from shaping treatments and scripts to guiding scenes and reviewing visual continuity. He integrates AI tools into a deliberate production workflow, keeping story and creative judgment at the center.</span></p><div class="founder-signature">CINELOGIC · JOUDX DEEB</div></div></div></section>
+<section class="section" id="faq" aria-labelledby="faqTitle"><div class="wrap"><div class="section-head"><div><div class="eyebrow"><span class="ar">أسئلة قبل البداية</span><span class="en">BEFORE WE START</span></div><h2 id="faqTitle"><span class="ar">عن الاستوديو وإنتاج مشروعك</span><span class="en">About the studio and your project</span></h2></div></div><div class="faq-list"><details open><summary><span class="ar">ما هي Cinelogic؟</span><span class="en">What is Cinelogic?</span></summary><p><span class="ar">Cinelogic استوديو لإنتاج الفيديو والإعلانات بالذكاء الاصطناعي. نطوّر الفكرة والسيناريو والإخراج والمونتاج لإعلانات سينمائية، وفيديوهات منتجات، وأفلام تعريفية وموشن غرافيك.</span><span class="en">Cinelogic is an AI-assisted video production studio. We develop concepts, scripts, direction and editing for cinematic ads, product films, corporate films and motion graphics.</span></p></details><details><summary><span class="ar">كيف يبدأ إنتاج إعلان؟</span><span class="en">How does an advertising project start?</span></summary><p><span class="ar">أرسل نوع المشروع والجمهور والرسالة والمقاسات المطلوبة وموعد التسليم عبر موجز المشروع أو واتساب. نراجع الموجز ونحدّد المعالجة الإبداعية ونطاق الإنتاج قبل البدء.</span><span class="en">Send the project type, audience, message, required formats and delivery date through the project brief or WhatsApp. We review the brief and define the creative treatment and production scope before starting.</span></p></details><details><summary><span class="ar">ما الذي يحدّد تكلفة الفيديو ومدة إنتاجه؟</span><span class="en">What determines a video’s cost and production time?</span></summary><p><span class="ar">تتحدد التكلفة والمدة بحسب عدد الأفلام والمشاهد، وطبيعة الحركة، والتعليق الصوتي، والمقاسات والمراجعات المطلوبة. تواصل معنا بموجز المشروع للحصول على تقدير يناسب نطاقه.</span><span class="en">Cost and timing depend on the number of films and scenes, animation, voice-over, formats and required revisions. Share a project brief for an estimate based on its scope.</span></p></details><details><summary><span class="ar">هل يمكن مشاهدة أمثلة على أعمالكم؟</span><span class="en">Where can I see examples of your work?</span></summary><p><span class="ar">تجد في معرض الأعمال ملفًا خاصًا بكل عميل، يجمع مشاريعه وأفلامه. اختر العلامة لاستكشاف العمل ومشاهدة الأفلام.</span><span class="en">Our portfolio brings each client’s projects and films together in one place. Select a brand to explore the work and watch the films.</span></p></details></div></div></section>
+    <section class="contact" id="contact"><div class="wrap"><div class="contact-row"><div><div class="eyebrow"><span class="ar">لنبدأ من فكرتك</span><span class="en">LET’S START WITH YOUR IDEA</span></div><h2><span class="ar">عندك مشروع؟ خلينا نحكي.</span><span class="en">Have a project? Let’s talk.</span></h2><p><span class="ar">جاوب على كم سؤال بسيط، ومنجهزلك رسالة واضحة على واتساب.</span><span class="en">Answer a few quick questions and we’ll prepare a clear WhatsApp brief.</span></p></div><div class="contact-actions"><a class="contact-whatsapp" href="https://wa.me/963994412211?text=مرحبا%20Cinelogic،%20أرغب%20بمناقشة%20مشروع" target="_blank" rel="noopener noreferrer"><span class="ar">تواصل عبر واتساب</span><span class="en">WhatsApp</span> ↗</a><a class="social-btn" href="tel:+963994412211"><span class="ar">اتصال مباشر</span><span class="en">Call</span> · +963 994 412 211</a><a class="btn-gold" href="mailto:info@cinelogic.net?subject=Cinelogic%20Project%20Inquiry"><span class="ar">راسلنا بالبريد</span><span class="en">Email Cinelogic</span> ↗</a><a class="social-btn" href="https://www.instagram.com/Cinelogicc/" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a><a class="social-btn" href="https://www.facebook.com/Cinelogicc" target="_blank" rel="noopener noreferrer">FACEBOOK ↗</a><a class="social-btn" href="https://www.youtube.com/@Cinelogicc" target="_blank" rel="noopener noreferrer">YOUTUBE ↗</a></div></div><form class="brief-form" id="briefForm"><h3><span class="ar">موجز سريع لمشروعك</span><span class="en">A quick project brief</span></h3><p><span class="ar">اختَر الأنسب، وعدّل التفاصيل لاحقًا مع فريقنا.</span><span class="en">Choose what fits; refine the details with our team later.</span></p><div class="brief-fields"><label><span class="ar">نوع المشروع</span><span class="en">Project type</span><select name="project" required><option value="">—</option><option value="إعلان سينمائي|Cinematic advertisement" data-en="Cinematic ad">إعلان سينمائي</option><option value="فيديو منتج|Product film" data-en="Product film">فيديو منتج</option><option value="حملة متكاملة|Connected campaign" data-en="Connected campaign">حملة متكاملة</option><option value="فيلم تعريفي|Brand or corporate film" data-en="Brand film">فيلم تعريفي</option><option value="موشن غرافيك|Motion graphics" data-en="Motion graphics">موشن غرافيك</option><option value="مشروع آخر|Other project" data-en="Other project">مشروع آخر</option></select></label><label><span class="ar">موعد التسليم المتوقع</span><span class="en">Expected delivery</span><select name="timing" required><option value="">—</option><option value="خلال أسبوعين|Within two weeks" data-en="Within two weeks">خلال أسبوعين</option><option value="خلال شهر|Within a month" data-en="Within a month">خلال شهر</option><option value="أكثر من شهر|More than a month" data-en="More than a month">أكثر من شهر</option><option value="مرن|Flexible" data-en="Flexible">مرن</option></select></label><label><span class="ar">اسمك</span><span class="en">Your name</span><input name="name" autocomplete="name" required placeholder="الاسم" data-placeholder-en="Name"></label><label><span class="ar">رقم واتساب</span><span class="en">WhatsApp number</span><input name="phone" type="tel" autocomplete="tel" required placeholder="+963…"></label></div><button class="brief-submit" type="submit"><span class="ar">جهّز رسالة واتساب ↗</span><span class="en">Continue to WhatsApp ↗</span></button><p class="brief-hint"><span class="ar">لن تُرسل البيانات تلقائيًا؛ ستراجع الرسالة قبل إرسالها على واتساب.</span><span class="en">Your details are not sent automatically; you can review the message before sending it on WhatsApp.</span></p></form></div></section>
   </main>
-    <dialog class="video-modal" id="videoModal" aria-labelledby="modalTitle">
-      <div class="modal-head">
-        <strong class="modal-title" id="modalTitle"></strong>
-        <div class="modal-actions">
-          <a class="whatsapp-modal" href="https://wa.me/963994412211" target="_blank" rel="noopener noreferrer" aria-label="تواصل عبر واتساب" data-aria-en="Contact via WhatsApp">
-            <svg class="whatsapp-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#whatsappIcon"></use></svg>
-          </a>
-          <form method="dialog"><button class="modal-close" type="submit" autofocus><span class="ar">إغلاق</span><span class="en">Close</span> <span aria-hidden="true">×</span></button></form>
-        </div>
-      </div>
-      <video id="videoPlayer" controls playsinline preload="none"></video>
-      <div class="modal-films" id="modalFilms" hidden></div>
-      <div class="modal-details" id="modalDetails"></div>
-    </dialog>
   <div class="floating-actions">
     <a class="back-to-top" id="backToTop" href="#home" aria-label="العودة لأعلى الصفحة" data-aria-en="Back to top" hidden>
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6"/></svg>
@@ -501,7 +506,7 @@
   <footer><div class="wrap foot-row"><span class="foot-brand">CINELOGIC · AI FILMMAKING & CREATIVE STUDIO</span><span><span class="ar">نحن لا نصنع إعلانات، نحن نصنع تجارب.</span><span class="en">We don’t make ads. We create experiences.</span> · © <span id="year"></span></span></div></footer>
   <script>
     const body = document.body;
-    const arabicPageTitle = document.title;
+    const arabicPageTitle = 'إنتاج فيديو وإعلانات بالذكاء الاصطناعي | Cinelogic';
     const langBtn = document.getElementById('langBtn');
     const themeBtn = document.getElementById('themeBtn');
     const covers = [...document.querySelectorAll('.work-preview')];
@@ -533,11 +538,14 @@
       langBtn.textContent = english ? 'عربي' : 'EN';
       langBtn.setAttribute('aria-label', english ? 'التبديل إلى العربية' : 'Switch to English');
       langBtn.lang = english ? 'ar' : 'en';
+      langBtn.href = (english ? '/' : '/en/') + location.hash;
+      document.querySelectorAll('[data-service-ar]').forEach(link => { link.href = english ? link.dataset.serviceEn : link.dataset.serviceAr; });
       localizedLabels.forEach(element => {
         element.dataset.ariaAr ??= element.getAttribute('aria-label');
         element.setAttribute('aria-label', english ? element.dataset.ariaEn : element.dataset.ariaAr);
       });
       covers.forEach(cover => {
+        if (cover.dataset.projectAr) cover.href = english ? cover.dataset.projectEn : cover.dataset.projectAr;
         const poster = cover.querySelector('img');
         poster.dataset.altAr ??= poster.alt;
         poster.alt = english ? poster.dataset.altEn : poster.dataset.altAr;
@@ -552,14 +560,11 @@
       });
       syncTheme();
     }
-    if (getPreference('cinelogic-lang') === 'en') body.classList.add('english');
+    const englishRoute = location.pathname.startsWith('/en/');
+    body.classList.toggle('english', englishRoute);
     if (getPreference('cinelogic-theme') === 'cream') body.dataset.theme = 'cream';
     syncLanguage();
-    langBtn.addEventListener('click', () => {
-      body.classList.toggle('english');
-      syncLanguage();
-      savePreference('cinelogic-lang', document.documentElement.lang);
-    });
+    langBtn.addEventListener('click', () => { savePreference('cinelogic-lang', isEnglish() ? 'ar' : 'en'); });
     themeBtn.addEventListener('click', () => {
       const cream = body.dataset.theme !== 'cream';
       body.dataset.theme = cream ? 'cream' : 'dark';
@@ -567,27 +572,6 @@
       syncTheme();
     });
 
-    const finePointer = matchMedia('(hover: hover) and (pointer: fine)');
-    let activeTeaser = null;
-    function stopTeaser(cover) {
-      cover.querySelector('.hover-preview').pause();
-      cover.classList.remove('previewing');
-      if (activeTeaser === cover) activeTeaser = null;
-    }
-    covers.forEach(cover => {
-      cover.addEventListener('pointerenter', async () => {
-        if (prefersReducedMotion.matches || !finePointer.matches || navigator.connection?.saveData) return;
-        if (activeTeaser) stopTeaser(activeTeaser);
-        const video = cover.querySelector('.hover-preview');
-        activeTeaser = cover;
-        if (!video.hasAttribute('src')) video.src = video.dataset.preview;
-        try {
-          await video.play();
-          if (activeTeaser === cover) cover.classList.add('previewing');
-        } catch { /* Keep the project cover visible. */ }
-      });
-      cover.addEventListener('pointerleave', () => stopTeaser(cover));
-    });
     document.getElementById('briefForm').addEventListener('submit',event=>{event.preventDefault();const f=new FormData(event.currentTarget);const [typeAr,typeEn]=(f.get('project')||'').split('|');const [timeAr,timeEn]=(f.get('timing')||'').split('|');const english=body.classList.contains('english');const name=f.get('name').trim(),phone=f.get('phone').trim();const msg=english?`Hello Cinelogic, I’d like to discuss a project.
 Name: ${name}
 WhatsApp: ${phone}
@@ -622,7 +606,6 @@ Expected delivery: ${timeEn}`:`مرحبًا Cinelogic، أرغب بمناقشة 
     let showAllProjects = false;
 
     function updateWorkFilter(button, serviceLink = null) {
-      if (activeTeaser) stopTeaser(activeTeaser);
       filters.forEach(filter => {
         filter.classList.toggle('active', filter === button);
         filter.setAttribute('aria-pressed', String(filter === button));
@@ -736,56 +719,10 @@ Expected delivery: ${timeEn}`:`مرحبًا Cinelogic، أرغب بمناقشة 
     prefersReducedMotion.addEventListener('change', () => {
       if (prefersReducedMotion.matches) {
         showreel.pause();
-        if (activeTeaser) stopTeaser(activeTeaser);
       }
     });
     if (!prefersReducedMotion.matches) playReel();
 
-    const modal = document.getElementById('videoModal');
-    const player = document.getElementById('videoPlayer');
-    const modalTitle = document.getElementById('modalTitle');
-    const modalDetails = document.getElementById('modalDetails');
-    const modalFilms = document.getElementById('modalFilms');
-
-    function playFilm(button) {
-      modalFilms.querySelectorAll('button').forEach(film => film.setAttribute('aria-pressed', String(film === button)));
-      const title = isEnglish() ? button.dataset.titleEn : button.dataset.titleAr;
-      player.setAttribute('aria-label', modalFilms.hidden ? modalTitle.textContent : title);
-      const { src, webm } = button.dataset;
-      const useWebm = webm && player.canPlayType('video/webm; codecs="vp9, opus"');
-      player.onerror = useWebm ? () => {
-        player.onerror = null;
-        player.src = src;
-        player.play().catch(() => {});
-      } : null;
-      player.src = useWebm ? webm : src;
-      player.play().catch(() => {});
-    }
-    covers.forEach(cover => cover.addEventListener('click', () => {
-      if (activeTeaser) stopTeaser(activeTeaser);
-      showreel.pause();
-      const card = cover.closest('.work-card');
-      modalTitle.textContent = card.querySelector(isEnglish() ? 'h3 .en' : 'h3 .ar').textContent;
-      modalDetails.replaceChildren(card.querySelector('.work-details').content.cloneNode(true));
-      const playlist = card.querySelector('.work-films');
-      modalFilms.replaceChildren();
-      modalFilms.hidden = !playlist;
-      if (playlist) modalFilms.append(playlist.content.cloneNode(true));
-      modal.showModal();
-      playFilm(modalFilms.firstElementChild || cover);
-    }));
-    modalFilms.addEventListener('click', event => {
-      const film = event.target.closest('.watch-btn');
-      if (film) playFilm(film);
-    });
-    modal.addEventListener('click', event => { if (event.target === modal) modal.close(); });
-    modal.addEventListener('close', () => {
-      if (modal.open) return;
-      player.onerror = null;
-      player.pause();
-      player.removeAttribute('src');
-      player.load();
-    });
     const backToTop = document.getElementById('backToTop');
     new IntersectionObserver(([hero]) => {
       backToTop.hidden = hero.isIntersecting;

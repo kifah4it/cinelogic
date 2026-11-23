@@ -1,0 +1,214 @@
+[
+  {
+    "slug": "cinematic-advertising",
+    "key": "cinematic",
+    "title": {
+      "ar": "إعلانات سينمائية",
+      "en": "Cinematic Advertising"
+    },
+    "intro": {
+      "ar": "إعلانات تنطلق من فكرة واضحة، بافتتاحية تشد الانتباه وسرد يخدم الرسالة. نبني الفكرة قبل الصورة، ليكون لكل مشهد دور.",
+      "en": "Commercials built on a clear idea, with an opening that holds attention and a story that serves the message. We build the idea before the image, giving every scene a purpose."
+    },
+    "how": {
+      "ar": "نحدد الرسالة والجمهور، ثم نطوّر المعالجة والسيناريو ونقود الإخراج حتى المونتاج والتسليم بالمقاسات المناسبة.",
+      "en": "We define the message and audience, develop the treatment and script, and direct the work through editing and delivery in the required formats."
+    },
+    "question": {
+      "ar": "هل يمكن أن تضم الحملة أكثر من فيلم؟",
+      "en": "Can a campaign include more than one film?"
+    },
+    "answer": {
+      "ar": "نعم. يمكن تطوير عدة أفلام بتوجه إبداعي موحّد، مثل حملة NISSO UMZUG المكوّنة من فيلمين.",
+      "en": "Yes. A campaign can include several films under one creative direction, as in our two-film campaign for NISSO UMZUG."
+    },
+    "works": [
+      [
+        "nisso-umzug",
+        "moving-clearance-campaign"
+      ],
+      [
+        "beeorder",
+        "order-journey"
+      ],
+      [
+        "alaa-beauty-center",
+        "brows-lashes-nails"
+      ],
+      [
+        "hoojuzat",
+        "syria-your-next-destination"
+      ],
+      [
+        "fly-cham",
+        "boarding-pass-launch"
+      ]
+    ]
+  },
+  {
+    "slug": "product-films",
+    "key": "product",
+    "title": {
+      "ar": "إعلانات المنتجات",
+      "en": "Product Films"
+    },
+    "intro": {
+      "ar": "فيديوهات تبرز هوية المنتج وتفاصيله داخل معالجة بصرية متماسكة، من التكوين والإضاءة إلى الحركة والإيقاع.",
+      "en": "Product films that bring identity and detail into a cohesive visual treatment, from composition and lighting to movement and rhythm."
+    },
+    "how": {
+      "ar": "نثبت مراجع المنتج وخصائصه البصرية، ونراجع التفاصيل والحركة بين المشاهد، ثم نضبط المونتاج واللون والصوت قبل التسليم.",
+      "en": "We establish product references and visual details, review continuity and movement across scenes, then refine editing, color and sound before delivery."
+    },
+    "question": {
+      "ar": "كيف تحافظون على هوية المنتج بين المشاهد؟",
+      "en": "How do you keep the product consistent across scenes?"
+    },
+    "answer": {
+      "ar": "نعتمد مراجع واضحة للعبوة والهوية في التحضير، ونراجعها أثناء الإنتاج وقبل التسليم.",
+      "en": "We establish clear packaging and brand references during preparation, then check them during production and before delivery."
+    },
+    "works": [
+      [
+        "company-i",
+        "toner-micellar-ads"
+      ],
+      [
+        "company-i",
+        "product-range-film"
+      ]
+    ]
+  },
+  {
+    "slug": "brand-storytelling",
+    "key": "story",
+    "title": {
+      "ar": "سرد قصص العلامات",
+      "en": "Brand Storytelling"
+    },
+    "intro": {
+      "ar": "نحوّل شخصية العلامة ورسالتها إلى حكاية بصرية تمنحها حضورًا واضحًا ومميزًا.",
+      "en": "We turn a brand’s character and message into a visual story with a distinct presence."
+    },
+    "how": {
+      "ar": "نبدأ بفهم الجمهور والرسالة، ثم نبني الزاوية الإبداعية والسرد والنبرة، ونربط القرارات البصرية بهوية العلامة.",
+      "en": "We begin with the audience and message, define the creative angle, narrative and tone, and connect visual decisions to the brand’s identity."
+    },
+    "question": {
+      "ar": "ماذا نحتاج لنبدأ فيلم علامة؟",
+      "en": "What do we need to start a brand film?"
+    },
+    "answer": {
+      "ar": "موجزًا يوضح الجمهور والرسالة والهدف. نبني عليه الفكرة والمعالجة ونطاق الإنتاج.",
+      "en": "A brief describing the audience, message and objective. We use it to develop the concept, treatment and production scope."
+    },
+    "works": [
+      [
+        "al-farah-gourmet",
+        "from-founding-to-growth"
+      ]
+    ]
+  },
+  {
+    "slug": "short-films-social",
+    "key": "short",
+    "title": {
+      "ar": "أفلام قصيرة ومحتوى اجتماعي",
+      "en": "Short Films & Social Content"
+    },
+    "intro": {
+      "ar": "محتوى قصير للمنصات الرقمية، يراعي وضوح الفكرة وإيقاع المشاهدة والمقاس المناسب للنشر.",
+      "en": "Short-form content for digital platforms, shaped around a clear idea, viewing rhythm and the right delivery format."
+    },
+    "how": {
+      "ar": "نحدد الرسالة والمنصة وطبيعة المحتوى، ثم نطوّر الصيغة البصرية ونجهّز النسخ المطلوبة. ويمكن تنظيم العمل ضمن شراكة محتوى مستمرة.",
+      "en": "We define the message, platform and content format, develop the visual approach and prepare the required versions. Work can also be organized through an ongoing content partnership."
+    },
+    "question": {
+      "ar": "هل يمكن إنتاج محتوى بشكل منتظم؟",
+      "en": "Can you produce content on a regular schedule?"
+    },
+    "answer": {
+      "ar": "نعم، عبر نطاق عمل متفق عليه يشمل التخطيط الدوري والصيغ المطلوبة والمراجعة والتطوير.",
+      "en": "Yes, through an agreed scope covering recurring planning, required formats, review and refinement."
+    },
+    "works": []
+  },
+  {
+    "slug": "corporate-educational-films",
+    "key": "corporate",
+    "title": {
+      "ar": "أفلام مؤسسية وتعليمية",
+      "en": "Corporate & Educational Films"
+    },
+    "intro": {
+      "ar": "نقدّم الخدمات والقيم والرسائل المؤسسية في أفلام واضحة وقريبة من الجمهور.",
+      "en": "We communicate services, values and institutional messages through clear, audience-focused films."
+    },
+    "how": {
+      "ar": "نحدد الجمهور والهدف والمعلومات الأساسية، ثم نبني تسلسلًا بصريًا يسهّل الفهم ويخدم هوية المؤسسة.",
+      "en": "We identify the audience, objective and essential information, then structure a visual narrative that supports understanding and the institution’s identity."
+    },
+    "question": {
+      "ar": "ما الذي يمكن أن يقدّمه الفيلم المؤسسي؟",
+      "en": "What can a corporate film communicate?"
+    },
+    "answer": {
+      "ar": "يمكنه التعريف بالخدمات أو شرح رؤية المؤسسة ورسالتها، كما في أعمال RJBI وMOTHERLAND SCHOOL ومركز توازن الطبي.",
+      "en": "It can introduce services or communicate an institution’s vision and mission, as in our films for RJBI, MOTHERLAND SCHOOL and Tawazon Medical Center."
+    },
+    "works": [
+      [
+        "rjbi",
+        "services-explainer"
+      ],
+      [
+        "motherland-school",
+        "school-mission"
+      ],
+      [
+        "tawazon-medical-center",
+        "integrated-care-vision"
+      ],
+      [
+        "an-nur-islamic-centre",
+        "a-lasting-foundation"
+      ]
+    ]
+  },
+  {
+    "slug": "motion-design",
+    "key": "motion",
+    "title": {
+      "ar": "موشن غرافيك وحلول بصرية",
+      "en": "Motion Design & Visuals"
+    },
+    "intro": {
+      "ar": "عناصر متحركة ومشاهد توضيحية تجعل المعلومات أوضح وتعزّز هوية المشروع.",
+      "en": "Motion elements and visual explainers that make information clearer and strengthen a project’s identity."
+    },
+    "how": {
+      "ar": "نرتّب المعلومات ونبني أسلوب العرض والحركة حول الفكرة، مع مراجعة الاتساق والإيقاع والصوت.",
+      "en": "We organize the information and build presentation and movement around the idea, reviewing consistency, pacing and sound."
+    },
+    "question": {
+      "ar": "هل يمكن دمج الموشن غرافيك ضمن حملة إعلانية؟",
+      "en": "Can motion design be part of an advertising campaign?"
+    },
+    "answer": {
+      "ar": "نعم. حملة بطاقات صعود فلاي شام تجمع إعلان إطلاق وفيلم موشن غرافيك يشرح فئات البطاقات ومزاياها.",
+      "en": "Yes. Fly Cham’s boarding pass campaign combines a launch commercial with a motion graphics film explaining the categories and benefits."
+    },
+    "works": [
+      [
+        "fly-cham",
+        "boarding-pass-launch",
+        "fare-classes-motion-film"
+      ],
+      [
+        "an-nur-islamic-centre",
+        "a-lasting-foundation"
+      ]
+    ]
+  }
+]

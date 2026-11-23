@@ -57,7 +57,7 @@ a:focus-visible { outline: 2px solid var(--link); outline-offset: 4px }
 h1 { margin: 8px 0 14px; font-size: clamp(2rem, 5vw, 3.75rem); line-height: 1.22 }
 .case-intro, figcaption, .case-notes p, .case-notes ul { color: var(--muted); margin: 0 }
 .case-film { margin: 0 }
-.case-film video {
+.case-film iframe {
   display: block;
   width: min(100%, 270px);
   height: auto;
@@ -68,6 +68,7 @@ h1 { margin: 8px 0 14px; font-size: clamp(2rem, 5vw, 3.75rem); line-height: 1.22
   border: 1px solid var(--line);
   border-radius: 16px;
 }
+.case-video-link { display: block; text-align: center; color: var(--link); font-size: .8125rem; margin-block-start: 8px }
 figcaption { margin-block-start: 8px; text-align: center; font-size: .8125rem }
 .case-notes { display: grid; grid-template-columns: 1fr 1fr; gap: 14px }
 .case-notes section { padding: 18px; border: 1px solid var(--line); border-radius: 16px; background: var(--panel) }
@@ -88,3 +89,41 @@ figcaption { margin-block-start: 8px; text-align: center; font-size: .8125rem }
   .case-nav { gap: 8px }
   .case-logo { width: 144px }
 }
+
+/* Client portfolios */
+.client-main { padding-block: 48px 24px }
+.client-intro { max-width: 820px; padding-block: 16px 24px }
+.client-intro h1 { overflow-wrap: anywhere }
+.client-intro .case-intro { font-size: 1.1rem }
+.client-count { color: var(--link); font-size: .875rem }
+.project-jump { display: flex; flex-wrap: wrap; gap: 10px; padding-block: 8px 28px }
+.project-jump a { padding: 9px 15px; border: 1px solid var(--line); border-radius: 8px; text-decoration: none }
+.project-jump a:hover { border-color: var(--link); color: var(--link) }
+.client-project { border-top: 1px solid var(--line); padding-block: 28px 48px; scroll-margin-top: 24px }
+.client-project>h2 { font-size: clamp(1.4rem,3vw,2rem); margin-block: 0 24px }
+.client-films { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px }
+.client-film { padding: 24px; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; scroll-margin-top: 24px; min-width: 0 }
+.client-film-copy { margin-bottom: 24px }
+.client-film h3 { font-size: 1.2rem; margin: 0 0 10px }
+.client-film p { color: var(--muted); margin: 0 }
+.client-film iframe { width: min(100%,320px) }
+.film-unavailable img { width: 100%; height: auto; border-radius: 12px }
+.film-unavailable p { padding-block: 16px }
+.client-cta { border-top: 1px solid var(--line); padding-block: 40px 16px }
+.client-cta .case-contact { margin-block: 12px 32px }
+.client-footer { padding-block: 24px; color: var(--muted); font-size: .75rem }
+@media(max-width:650px) { .client-films { grid-template-columns: 1fr } .client-film { padding: 18px } .client-main { padding-top: 24px } }
+
+/* Services */
+.service-section { padding-block: 24px; border-top: 1px solid var(--line) }
+.service-section p { max-width: 800px; color: var(--muted) }
+.service-section summary { cursor: pointer; font-weight: 700; padding-block: 12px }
+.service-works { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px }
+.service-work { display: block; padding: 22px; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); text-decoration: none }
+.service-work:hover { border-color: var(--link) }
+.service-work h3 { margin: 0; font-size: 1.1rem }
+.service-work span { color: var(--link); font-size: .875rem }
+@media(max-width:650px) { .service-works { grid-template-columns: 1fr } }
+.client-film video { display:block; width:min(100%,360px); height:auto; aspect-ratio:9/16; margin-inline:auto; background:#0B0B0C; border:1px solid var(--line); border-radius:16px }
+.film-production { margin-top:14px!important; padding-top:14px; border-top:1px solid var(--line); font-size:.875rem }
+.client-films:has(>.client-film:only-child) { grid-template-columns:minmax(0,1fr); max-width:680px; margin-inline:auto }
