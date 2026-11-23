@@ -1,1 +1,102 @@
-{"/assets/cinelogic-original-logo.png": {"width": 1254, "height": 1254}, "/assets/joudx-deeb.webp": {"width": 1152, "height": 1536}, "/assets/og-cinelogic.png": {"width": 1200, "height": 630}, "/assets/posters/1000520055.jpg": {"width": 900, "height": 1600}, "/assets/posters/1000533807.jpg": {"width": 900, "height": 1600}, "/assets/posters/1000533815.jpg": {"width": 640, "height": 360}, "/assets/posters/1000553199.jpg": {"width": 900, "height": 676}, "/assets/posters/1000555390.jpg": {"width": 900, "height": 1600}, "/assets/posters/1000556070.jpg": {"width": 900, "height": 1600}, "/assets/posters/1000556072.jpg": {"width": 720, "height": 1280}, "/assets/posters/1000556076.jpg": {"width": 900, "height": 1596}, "/assets/posters/1000609212.jpg": {"width": 720, "height": 1280}, "/assets/posters/1000613493.jpg": {"width": 900, "height": 1600}, "/assets/posters/1000615792.jpg": {"width": 864, "height": 1920}, "/assets/posters/1000630523.jpg": {"width": 900, "height": 1600}, "/assets/posters/1000637788.jpg": {"width": 900, "height": 1600}, "/assets/posters/1000641048.jpg": {"width": 900, "height": 1600}, "/assets/posters/1000641101.jpg": {"width": 900, "height": 1636}, "/assets/posters/1000679451.jpg": {"width": 960, "height": 540}, "/assets/posters/an-nur-islamic-centre.jpg": {"width": 720, "height": 1280}, "/assets/posters/cinelogicc-showreel-current.jpg": {"width": 1280, "height": 720}, "/assets/posters/cinelogicc-showreel.jpg": {"width": 960, "height": 720}}
+{
+  "/assets/cinelogic-original-logo.png": {
+    "width": 1254,
+    "height": 1254
+  },
+  "/assets/joudx-deeb.webp": {
+    "width": 1152,
+    "height": 1536
+  },
+  "/assets/og-cinelogic.png": {
+    "width": 1200,
+    "height": 630
+  },
+  "/assets/posters/1000520055.jpg": {
+    "width": 900,
+    "height": 1600
+  },
+  "/assets/posters/1000533807.jpg": {
+    "width": 900,
+    "height": 1600
+  },
+  "/assets/posters/1000533815.jpg": {
+    "width": 640,
+    "height": 360
+  },
+  "/assets/posters/1000553199.jpg": {
+    "width": 900,
+    "height": 676
+  },
+  "/assets/posters/1000555390.jpg": {
+    "width": 900,
+    "height": 1600
+  },
+  "/assets/posters/1000556070.jpg": {
+    "width": 900,
+    "height": 1600
+  },
+  "/assets/posters/1000556072.jpg": {
+    "width": 720,
+    "height": 1280
+  },
+  "/assets/posters/1000556076.jpg": {
+    "width": 900,
+    "height": 1596
+  },
+  "/assets/posters/1000609212.jpg": {
+    "width": 720,
+    "height": 1280
+  },
+  "/assets/posters/1000613493.jpg": {
+    "width": 900,
+    "height": 1600
+  },
+  "/assets/posters/1000615792.jpg": {
+    "width": 864,
+    "height": 1920
+  },
+  "/assets/posters/1000630523.jpg": {
+    "width": 900,
+    "height": 1600
+  },
+  "/assets/posters/1000637788.jpg": {
+    "width": 900,
+    "height": 1600
+  },
+  "/assets/posters/1000641048.jpg": {
+    "width": 900,
+    "height": 1600
+  },
+  "/assets/posters/1000641101.jpg": {
+    "width": 900,
+    "height": 1636
+  },
+  "/assets/posters/1000679451.jpg": {
+    "width": 960,
+    "height": 540
+  },
+  "/assets/posters/an-nur-islamic-centre.jpg": {
+    "width": 720,
+    "height": 1280
+  },
+  "/assets/posters/cinelogicc-showreel-current.jpg": {
+    "width": 1280,
+    "height": 720
+  },
+  "/assets/posters/cinelogicc-showreel.jpg": {
+    "width": 960,
+    "height": 720
+  },
+  "https://i.ytimg.com/vi/F9w5o9j4u5s/hqdefault.jpg": {
+    "width": 480,
+    "height": 360
+  },
+  "/assets/cinelogic-wordmark.svg": {
+    "width": 710,
+    "height": 100
+  },
+  "/assets/cinelogic-wordmark-light-bg.svg": {
+    "width": 710,
+    "height": 100
+  }
+}

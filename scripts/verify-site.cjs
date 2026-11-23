@@ -1,9 +1,22 @@
-const fs=require('fs'),path=require('path'),vm=require('vm');let files=[];function walk(p){for(const x of fs.readdirSync(p,{withFileTypes:true})){if(x.name.startsWith('.')||x.name==='assets'||x.name==='scripts')continue;const f=path.join(p,x.name);if(x.isDirectory())walk(f);else if(x.name.endsWith('.html'))files.push(f);}}walk('.');let links=0,schemas=0;
+const fs=require('fs'),path=require('path'),vm=require('vm');let files=[];function walk(p){for(const x of fs.readdirSync(p,{withFileTypes:true})){if(x.name.startsWith('.')||x.name==='assets'||x.name==='scripts'||x.name==='templates')continue;const f=path.join(p,x.name);if(x.isDirectory())walk(f);else if(x.name.endsWith('.html'))files.push(f);}}walk('.');let links=0,schemas=0;
 for(const f of files){const s=fs.readFileSync(f,'utf8');for(const m of s.matchAll(/<script([^>]*)>([\s\S]*?)<\/script>/g)){if(m[1].includes('ld+json')){JSON.parse(m[2]);schemas++;}else if(!m[1].includes('src='))new vm.Script(m[2]);}
 const ids=[...s.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);if(new Set(ids).size!==ids.length)throw Error('Duplicate IDs '+f);
 for(const m of s.matchAll(/(?:href|src|poster)="([^"]+)"/g)){let u=m[1].replaceAll('&amp;','&');if(u.startsWith('https://cinelogic.net/'))u='/'+u.slice('https://cinelogic.net/'.length);else if(/^(https?:|mailto:|tel:)/.test(u))continue;const [p,anchor]=u.split('#');const clean=p.split('?')[0];let target=clean.startsWith('/')?path.join('.',clean):clean?path.resolve(path.dirname(f),clean):f;if(fs.existsSync(target)&&fs.statSync(target).isDirectory())target=path.join(target,'index.html');if(!fs.existsSync(target))throw Error('Missing '+u+' in '+f);if(anchor&&target.endsWith('.html')&&!fs.readFileSync(target,'utf8').includes('id="'+anchor+'"'))throw Error('Missing fragment '+u+' in '+f);links++;}
 if(!f.includes('boarding-passes')){const alt=[...s.matchAll(/<link rel="alternate" hreflang="(ar|en)" href="([^"]+)"/g)];if(alt.length!==2)throw Error('Missing language alternatives '+f);const canonical=s.match(/<link rel="canonical" href="([^"]+)"/)[1];if(!alt.some(m=>m[2]===canonical))throw Error('Self alternate mismatch '+f);for(const a of alt){const p=path.join('.',a[2].slice('https://cinelogic.net/'.length),'index.html');const other=fs.readFileSync(p,'utf8');if(!other.includes('href="'+canonical+'"'))throw Error('Non-reciprocal '+f);}}
 }
-const en=fs.readFileSync('en/index.html','utf8');if(!en.includes('<html lang="en" dir="ltr">')||!en.includes('<body class="english">'))throw Error('English SSR failed');if((en.match(/link.dataset.serviceEn/g)||[]).length!==1)throw Error('Duplicate language code');
+const en=fs.readFileSync('en/index.html','utf8');if(!en.includes('<html lang="en" dir="ltr">')||!en.includes('<body class="english">'))throw Error('English SSR failed');if(/class="ar"/.test(en)||/class="en"/.test(fs.readFileSync('index.html','utf8')))throw Error('Inactive language remains in home HTML');
 console.log(`PASS ${files.length} HTML files; ${links} local links/assets/fragments; ${schemas} valid JSON-LD blocks; all scripts parse.`);
 console.log('PASS paired canonical/hreflang routes and distinct Arabic/English homepages.');
+
+// Regression coverage for the independent SEO audit findings.
+for(const f of files.filter(f=>!f.includes('boarding-passes'))){
+  const s=fs.readFileSync(f,'utf8');
+  const ar=s.match(/<link rel="alternate" hreflang="ar" href="([^"]+)"/)[1];
+  if(s.match(/hreflang="x-default" href="([^"]+)"/)?.[1]!==ar)throw Error('Default language mismatch '+f);
+  for(const img of s.match(/<img\b[^>]*>/g)||[])if(!/\bwidth="\d+"/.test(img)||!/\bheight="\d+"/.test(img))throw Error('Missing image dimensions '+f);
+  const graph=JSON.parse(s.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])['@graph'];
+  const crumbs=graph.find(x=>x['@type']==='BreadcrumbList');
+  if(crumbs&&crumbs.itemListElement[0].item!=='https://cinelogic.net/'+(f.replaceAll('\\','/').startsWith('en/')?'en/':''))throw Error('Breadcrumb language mismatch '+f);
+}
+for(const slug of ['royal-clean','smart-touch'])for(const prefix of ['','en/'])if(!fs.readFileSync(prefix+'projects/'+slug+'/index.html','utf8').includes('/services/cinematic-advertising/'))throw Error('Missing related service '+slug);
+console.log('PASS x-default, image dimensions, localized breadcrumbs and related-service regression checks.');

@@ -1,0 +1,11 @@
+{
+  "name": "cinelogicnet",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-11-23",
+  "build": { "command": "node scripts/build-site.cjs" },
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "run_worker_first": ["/assets/videos/*"]
+  }
+}

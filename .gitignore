@@ -1,2 +1,4 @@
 .codex-attachments/
 reports/
+.wrangler/
+node_modules/

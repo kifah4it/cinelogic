@@ -42,8 +42,27 @@
       [
         "fly-cham",
         "boarding-pass-launch"
+      ],
+      [
+        "royal-clean",
+        "cleaning-campaign"
+      ],
+      [
+        "smart-touch",
+        "villa-interiors-lighting"
       ]
-    ]
+    ],
+    "scope": {
+      "ar": "نطوّر الفكرة الإعلانية والافتتاحية والسيناريو، ثم نحوّل المعالجة إلى مشاهد مترابطة ونضبط المونتاج والصوت. نتفق على الفيلم الأساسي ونسخه المطلوبة قبل الإنتاج.",
+      "en": "We develop the advertising idea, opening and script, then direct a coherent sequence and refine the edit and sound. The main film and required versions are agreed before production."
+    },
+    "brief": {
+      "ar": "ما الرسالة التي تريد أن يتذكرها الجمهور؟ أرسل تعريف العلامة والجمهور والعرض ومنصات النشر، مع أصول الهوية والمراجع المتاحة.",
+      "en": "What should the audience remember? Share the brand, audience, offer and publishing channels, together with available identity assets and references."
+    },
+    "metaDescription": {
+      "en": "Cinematic commercials with a clear idea, purposeful storytelling and distinctive visual direction, developed by Cinelogic from script to final delivery."
+    }
   },
   {
     "slug": "product-films",
@@ -77,7 +96,15 @@
         "company-i",
         "product-range-film"
       ]
-    ]
+    ],
+    "scope": {
+      "ar": "نبني المعالجة حول المنتج وهويته، من مراجعة مراجع العبوة والتفاصيل إلى تصميم المشاهد والمونتاج والصوت. نحدد المنتجات الظاهرة والنسخ والمقاسات المطلوبة ضمن نطاق واضح.",
+      "en": "We build the treatment around the product and its identity, from packaging references and details to scene design, editing and sound. Featured products, versions and formats are defined in the scope."
+    },
+    "brief": {
+      "ar": "صور واضحة للمنتج والعبوة، ملفات الهوية، أسماء المنتجات والمعلومات المعتمدة عنها، وأي عبارات مطلوبة في الإعلان.",
+      "en": "Clear product and packaging references, brand assets, approved product names and information, and any required advertising copy."
+    }
   },
   {
     "slug": "brand-storytelling",
@@ -107,7 +134,15 @@
         "al-farah-gourmet",
         "from-founding-to-growth"
       ]
-    ]
+    ],
+    "scope": {
+      "ar": "نصوغ زاوية الحكاية والسيناريو والنبرة البصرية انطلاقًا من شخصية العلامة. يشمل العمل تطوير السرد والإخراج والمونتاج والصوت، مع الاتفاق على مدة الفيلم ونسخ عرضه.",
+      "en": "We shape the narrative angle, script and visual tone around the brand’s character. The work covers story development, direction, editing and sound, with the film length and versions agreed in advance."
+    },
+    "brief": {
+      "ar": "قصة العلامة ومحطاتها وموقفها، والجمهور الذي تخاطبه، والحقائق والأسماء التي تسمح بذكرها، مع مواد الهوية المتاحة.",
+      "en": "The brand’s story, milestones and point of view, its audience, approved facts and names, and available identity materials."
+    }
   },
   {
     "slug": "short-films-social",
@@ -132,7 +167,15 @@
       "ar": "نعم، عبر نطاق عمل متفق عليه يشمل التخطيط الدوري والصيغ المطلوبة والمراجعة والتطوير.",
       "en": "Yes, through an agreed scope covering recurring planning, required formats, review and refinement."
     },
-    "works": []
+    "works": [],
+    "scope": {
+      "ar": "نطوّر الأفكار والنصوص والبناء البصري بما يلائم المنصة وطريقة المشاهدة. نحدد عدد المواد وإيقاع تسليمها والمقاسات واللغات والمراجعات قبل بدء العمل.",
+      "en": "We develop ideas, scripts and visual structure for the platform and viewing context. Asset counts, delivery cadence, formats, languages and reviews are defined before work begins."
+    },
+    "brief": {
+      "ar": "المنصات المستهدفة، وموضوعات المحتوى، وطبيعة الجمهور، وتكرار النشر المتوقع، وأمثلة على النبرة المناسبة للعلامة.",
+      "en": "Target platforms, content themes, audience, expected publishing frequency and examples of the brand’s preferred tone."
+    }
   },
   {
     "slug": "corporate-educational-films",
@@ -174,7 +217,15 @@
         "an-nur-islamic-centre",
         "a-lasting-foundation"
       ]
-    ]
+    ],
+    "scope": {
+      "ar": "نرتّب الرسالة والمعلومات المعتمدة في سيناريو واضح، ثم نطوّر المعالجة البصرية والإخراج والمونتاج والصوت. نراجع المصطلحات والأسماء مع الجهة المعنية قبل التسليم.",
+      "en": "We organize the approved message and information into a clear script, then develop the visual treatment, direction, edit and sound. Terminology and names are reviewed with the client before delivery."
+    },
+    "brief": {
+      "ar": "تعريف المؤسسة وخدماتها، والجمهور والهدف من الفيلم، والمعلومات المعتمدة للنشر، وملفات الهوية والمواد المرجعية المتاحة.",
+      "en": "An overview of the institution and its services, the film’s audience and purpose, approved information and available brand and reference materials."
+    }
   },
   {
     "slug": "motion-design",
@@ -209,6 +260,14 @@
         "an-nur-islamic-centre",
         "a-lasting-foundation"
       ]
-    ]
+    ],
+    "scope": {
+      "ar": "نحوّل المعلومات إلى تسلسل بصري ونصوص وعناصر متحركة، مع ضبط الحركة والإيقاع والصوت. نحدد ما إذا كان العمل فيلمًا مستقلًا أو جزءًا من إعلان قبل بناء المشاهد.",
+      "en": "We turn information into a visual sequence, copy and animated elements, refining movement, pacing and sound. We define whether the work is a standalone film or part of a commercial before building scenes."
+    },
+    "brief": {
+      "ar": "المعلومات المطلوب شرحها بترتيب أولوياتها، والنصوص والأرقام المعتمدة، وأصول الهوية، واللغة والمقاس ومدة العرض المستهدفة.",
+      "en": "The information to explain in priority order, approved copy and figures, brand assets, language, format and target running time."
+    }
   }
 ]
