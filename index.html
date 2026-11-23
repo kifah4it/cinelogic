@@ -387,7 +387,7 @@
     body:not(.english) .en{display:none!important}body.english .ar{display:none!important}
     @media(max-width:700px){.faq-list{grid-template-columns:1fr}.faq-list details{padding:20px}}
   </style>
-<link rel="preload" as="image" href="/assets/posters/cinelogicc-showreel-current.jpg" fetchpriority="high"></head>
+<link rel="preload" as="image" href="/assets/posters/cinelogicc-showreel-current.jpg" fetchpriority="high"><link rel="preload" as="image" href="/assets/cinelogic-wordmark.svg" fetchpriority="high"></head>
 <body>
   <header><div class="wrap nav">
     <a class="brand" href="#home" aria-label="Cinelogic">
@@ -399,11 +399,11 @@
   </div></header>
   <main>
     <section class="hero" id="home" tabindex="-1" aria-labelledby="heroTitle">
-      <video id="showreel" class="hero-video" src="/assets/videos/cinelogicc-showreel-joudx.mp4" muted loop playsinline preload="metadata" poster="/assets/posters/cinelogicc-showreel-current.jpg" aria-hidden="true"></video>
+      <video id="showreel" class="hero-video" src="/assets/videos/cinelogicc-showreel-web.mp4" muted loop playsinline preload="metadata" poster="/assets/posters/cinelogicc-showreel-current.jpg" aria-hidden="true"></video>
       <div class="hero-shade" aria-hidden="true"></div>
       <div class="hero-center">
         <div class="hero-word">
-          <img id="heroWordmark" src="/assets/cinelogic-wordmark.svg" alt="Cinelogic" width="710" height="100">
+          <img id="heroWordmark" fetchpriority="high" decoding="sync" src="/assets/cinelogic-wordmark.svg" alt="Cinelogic" width="710" height="100">
           <canvas id="heroWordmarkVideo" aria-hidden="true"></canvas>
         </div>
         <div class="hero-intro">
